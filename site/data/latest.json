@@ -1,12 +1,12 @@
 {
   "date": "2026-05-02",
   "title": "AI 产品机会日报",
-  "summary": "今天的信号集中在三个方向：一是 Claude、Gemini 等编码/创作代理继续向专业工作流下沉；二是企业开始暴露 AI 代理成本、权限和审计问题；三是基础设施与平台合作正在把算力、分发和生态绑定得更紧。产品机会不在“再做一个聊天框”，而在帮助团队管理代理的行为、成本、上下文和交付物质量。",
+  "summary": "今天的 AI 产品机会明显从“模型能力展示”转向“代理进入真实工作流后的管理问题”：预算消耗、行为审计、上下文复用、交付物质量和团队协作层都开始成为显性需求。巨头侧，Anthropic 继续用 Opus 4.7、Claude Design 和算力合作扩大高价值工作负载边界，Google Gemini CLI 抢占开发者终端入口，Meta 的 agentic data framework 则显示“自动化专业流程”正在扩散到训练数据和数据科学。值得跟进的不是再做一个聊天框，而是围绕 agent 的成本、权限、上下文、交付和治理做基础设施。",
   "opportunities": [
     {
-      "title": "AI 代理成本与预算监控",
-      "summary": "Uber 在 Claude Code 上快速消耗 AI 预算的讨论，说明团队已经不只关心模型能力，也开始关心代理使用的财务可控性。",
-      "reason": "当 AI 编码工具进入高频工作流，成本会从 API 账单变成团队管理问题。可按项目、人员、任务和收益追踪的成本分析工具，有机会成为企业采用代理前的基础设施。",
+      "title": "Agent 成本治理与预算归因",
+      "summary": "Claude Code 预算消耗的高讨论度说明，团队已经开始担心 AI 代理从效率工具变成不可控成本中心。",
+      "reason": "当代理进入高频开发和运营流程，企业需要的不只是总账单，而是按项目、人员、任务、模型和产出拆解成本。能把 agent 使用量、业务收益和异常消耗连起来的产品，会成为企业规模化采用前的刚需。",
       "score": 64,
       "rank": 1,
       "published_at": "2026-05-01T16:08:53+00:00",
@@ -19,175 +19,9 @@
       "url": "https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months"
     },
     {
-      "title": "Agent 行为审计与上下文记忆",
-      "summary": "Claude Code 插件和记忆工具的流行，显示开发者希望记录代理做过什么、为什么这样做，并在未来会话里复用上下文。",
-      "reason": "代理越能自主行动，团队越需要可追溯的行为日志、上下文压缩、会话记忆和复盘能力。这是从个人效率工具走向团队协作工具的关键缺口。",
-      "score": 72,
-      "rank": 2,
-      "published_at": "2026-05-02T14:06:01Z",
-      "sources": [
-        {
-          "name": "GitHub AI Repositories",
-          "url": "https://github.com/thedotmack/claude-mem"
-        },
-        {
-          "name": "Hacker News",
-          "url": "https://github.com/anthropics/claude-code/issues/6235"
-        }
-      ],
-      "url": "https://github.com/thedotmack/claude-mem"
-    },
-    {
-      "title": "面向非设计师的 AI 视觉交付工作台",
-      "summary": "Claude Design 把设计、原型、幻灯片和 one-pager 放到 Claude 协作流里，说明模型厂商正在争夺“最终交付物”入口。",
-      "reason": "很多用户的痛点不是生成灵感，而是把想法变成能发给客户、老板或用户的成品。围绕品牌规范、版本比较、素材复用和团队审阅做产品，会比单点生成更有粘性。",
-      "score": 80,
-      "rank": 3,
-      "published_at": "2026-05-02T00:00:00+00:00",
-      "sources": [
-        {
-          "name": "Anthropic Newsroom",
-          "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
-        }
-      ],
-      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
-    },
-    {
-      "title": "开源 AI 工作流编排的企业化封装",
-      "summary": "Dify、n8n 等项目持续获得关注，说明用户需要把模型、工具、数据库和业务系统串成稳定工作流。",
-      "reason": "市场需要的不是单个 agent demo，而是权限、观测、回滚、版本和集成齐全的生产化工作流。围绕特定行业场景做轻量封装，可能比通用平台更容易切入。",
-      "score": 70,
-      "rank": 4,
-      "published_at": "2026-05-02T09:34:01Z",
-      "sources": [
-        {
-          "name": "GitHub AI Repositories",
-          "url": "https://github.com/langgenius/dify"
-        },
-        {
-          "name": "GitHub AI Repositories",
-          "url": "https://github.com/n8n-io/n8n"
-        }
-      ],
-      "url": "https://github.com/langgenius/dify"
-    },
-    {
-      "title": "CLI 原生 AI 代理的团队协作层",
-      "summary": "Gemini CLI 和 Claude Code 生态都在增长，终端正在成为 AI 代理的重要入口。",
-      "reason": "CLI 工具强在个人效率，但团队还缺少共享配置、策略、审计、模板和最佳实践沉淀。围绕 CLI agent 的团队层，有机会连接开发者习惯和企业治理。",
-      "score": 72,
-      "rank": 5,
-      "published_at": "2026-05-02T02:10:41Z",
-      "sources": [
-        {
-          "name": "GitHub AI Repositories",
-          "url": "https://github.com/google-gemini/gemini-cli"
-        },
-        {
-          "name": "Hacker News",
-          "url": "https://github.com/anthropics/claude-code/issues/6235"
-        }
-      ],
-      "url": "https://github.com/google-gemini/gemini-cli"
-    }
-  ],
-  "big_tech": [
-    {
-      "title": "Anthropic 用 Claude Opus 4.7 强化高价值工作负载",
-      "summary": "Anthropic 官方强调 Opus 4.7 在编码、代理、视觉和多步骤任务上的一致性和彻底性。",
-      "reason": "高端模型正在围绕复杂工作流竞争，而不是单轮问答。对产品团队来说，可靠性、长任务完成度和可复核性会成为新的卖点。",
-      "score": 80,
-      "rank": 1,
-      "published_at": "2026-05-02T00:00:00+00:00",
-      "sources": [
-        {
-          "name": "Anthropic Newsroom",
-          "url": "https://www.anthropic.com/news/claude-opus-4-7"
-        }
-      ],
-      "url": "https://www.anthropic.com/news/claude-opus-4-7"
-    },
-    {
-      "title": "Anthropic Labs 推出 Claude Design",
-      "summary": "Claude Design 让用户与 Claude 协作生成设计、原型、幻灯片和一页纸材料。",
-      "reason": "模型厂商正在越过 API 和聊天界面，直接进入知识工作者的交付物生产流程。这会压缩一批轻量设计/文档工具的空间，也会创造插件和垂直模板机会。",
-      "score": 80,
-      "rank": 2,
-      "published_at": "2026-05-02T00:00:00+00:00",
-      "sources": [
-        {
-          "name": "Anthropic Newsroom",
-          "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
-        }
-      ],
-      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
-    },
-    {
-      "title": "Google Gemini CLI 把模型能力带进终端",
-      "summary": "Gemini CLI 以开源 AI agent 的方式进入开发者终端工作流。",
-      "reason": "开发者入口是 AI 平台争夺生态的关键位置。谁能在终端里成为默认助手，谁就更容易绑定上下文、工具调用和企业账号体系。",
-      "score": 72,
-      "rank": 3,
-      "published_at": "2026-05-02T02:10:41Z",
-      "sources": [
-        {
-          "name": "GitHub AI Repositories",
-          "url": "https://github.com/google-gemini/gemini-cli"
-        }
-      ],
-      "url": "https://github.com/google-gemini/gemini-cli"
-    },
-    {
-      "title": "Anthropic 与 Amazon 扩大算力合作",
-      "summary": "Anthropic 与 Amazon 的合作扩展到多 gigawatt 级别的新计算资源。",
-      "reason": "模型能力竞争越来越依赖长期算力合同。对应用层创业者来说，平台稳定性、价格走势和模型可得性都可能被这些基础设施合作影响。",
-      "score": 56,
-      "rank": 4,
-      "published_at": "2026-05-02T00:00:00+00:00",
-      "sources": [
-        {
-          "name": "Anthropic Newsroom",
-          "url": "https://www.anthropic.com/news/anthropic-amazon-compute"
-        }
-      ],
-      "url": "https://www.anthropic.com/news/anthropic-amazon-compute"
-    },
-    {
-      "title": "Anthropic 与 Google/Broadcom 继续绑定下一代计算",
-      "summary": "Anthropic 扩大与 Google 和 Broadcom 的下一代计算合作。",
-      "reason": "主要模型公司同时绑定多个云和芯片伙伴，说明供应链韧性会成为平台战略的一部分。应用团队需要避免过度依赖单一模型或单一供应商。",
-      "score": 56,
-      "rank": 5,
-      "published_at": "2026-05-02T00:00:00+00:00",
-      "sources": [
-        {
-          "name": "Anthropic Newsroom",
-          "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute"
-        }
-      ],
-      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute"
-    }
-  ],
-  "pain_points": [
-    {
-      "title": "代理成本不可解释",
-      "summary": "团队可能快速消耗 AI 工具预算，但很难把花费和具体任务、产出或团队行为对应起来。",
-      "reason": "这是企业采购和规模化使用的直接阻力。没有成本归因，AI 代理很难从个人效率工具升级为团队基础设施。",
-      "score": 64,
-      "rank": 1,
-      "published_at": "2026-05-01T16:08:53+00:00",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months"
-        }
-      ],
-      "url": "https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months"
-    },
-    {
-      "title": "代理行为缺少审计轨迹",
-      "summary": "开发者需要知道 Claude Code 等代理支持哪些团队规范、读过哪些上下文、做过哪些改动。",
-      "reason": "当代理能改代码、生成文件或调用工具时，可追溯性会直接影响信任、协作和合规。",
+      "title": "Agent 行为审计与团队记忆层",
+      "summary": "Claude Code 的 AGENTS.md 支持诉求和 claude-mem 这类插件，说明开发者需要记录代理读了什么、做了什么、为什么这样做，并让这些上下文能被团队复用。",
+      "reason": "代理越自主，越需要可追溯的操作日志、上下文压缩、会话记忆和团队规范注入。这个需求介于 IDE 插件、知识库和合规审计之间，适合做成跨工具的 agent memory / audit layer。",
       "score": 72,
       "rank": 2,
       "published_at": "2026-05-01T21:13:08+00:00",
@@ -204,9 +38,183 @@
       "url": "https://github.com/anthropics/claude-code/issues/6235"
     },
     {
-      "title": "从生成到交付仍有落差",
-      "summary": "Claude Design 的推出反映出用户希望 AI 不只是给建议，而是协助产出可以展示、评审和交付的视觉作品。",
-      "reason": "用户真正购买的是完成工作，而不是生成片段。产品如果能补齐版本、品牌、审阅和导出，就能抓住更靠近结果的价值。",
+      "title": "AI 视觉交付工作台，而不是单点生成器",
+      "summary": "Claude Design 把设计、原型、幻灯片和 one-pager 放进 Claude 协作流，表明模型厂商正在直接争夺“最终交付物”入口。",
+      "reason": "用户真正要买的是能拿去汇报、评审、发客户的成品。围绕品牌规范、版本对比、素材复用、审批批注和多格式导出做产品，会比单次图片/幻灯片生成更接近付费价值。",
+      "score": 80,
+      "rank": 3,
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "sources": [
+        {
+          "name": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+        }
+      ],
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+    },
+    {
+      "title": "开源 AI 工作流平台的垂直封装",
+      "summary": "Dify、n8n、LangChain 等项目持续高热，说明用户需要把模型、工具、数据库和业务系统编排成可运行的流程。",
+      "reason": "通用平台很强，但企业落地常常卡在场景模板、权限、监控、回滚和集成细节。围绕客服、销售、数据分析、研发协作等垂直流程做轻量封装，可能比再做一个通用 agent builder 更容易产生收入。",
+      "score": 70,
+      "rank": 4,
+      "published_at": "2026-05-02T09:34:01Z",
+      "sources": [
+        {
+          "name": "GitHub AI Repositories",
+          "url": "https://github.com/langgenius/dify"
+        },
+        {
+          "name": "GitHub AI Repositories",
+          "url": "https://github.com/n8n-io/n8n"
+        },
+        {
+          "name": "GitHub AI Repositories",
+          "url": "https://github.com/langchain-ai/langchain"
+        }
+      ],
+      "url": "https://github.com/langgenius/dify"
+    },
+    {
+      "title": "CLI Agent 的团队协作层",
+      "summary": "Gemini CLI、Claude Code 相关插件以及终端 agent 通信工具同时出现，说明终端正在成为 AI agent 的重要入口。",
+      "reason": "CLI agent 适合个人高手，但团队还缺共享配置、策略模板、任务队列、审计面板和安全边界。谁能把终端 agent 变成团队可管理的工作系统，谁就能抓住开发者组织里的高频入口。",
+      "score": 72,
+      "rank": 5,
+      "published_at": "2026-05-02T02:10:41Z",
+      "sources": [
+        {
+          "name": "GitHub AI Repositories",
+          "url": "https://github.com/google-gemini/gemini-cli"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/leox255/loopsy"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://omar.tech"
+        }
+      ],
+      "url": "https://github.com/google-gemini/gemini-cli"
+    }
+  ],
+  "big_tech": [
+    {
+      "title": "Anthropic 用 Claude Opus 4.7 加码复杂工作流",
+      "summary": "Anthropic 官方称 Opus 4.7 在编码、代理、视觉和多步骤任务上有更强表现和一致性。",
+      "reason": "模型竞争重点正在从单轮回答转向长任务可靠性。应用层产品要重新评估哪些流程可以交给更强的 agent 执行，以及如何设计复核、回滚和质量门槛。",
+      "score": 80,
+      "rank": 1,
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "sources": [
+        {
+          "name": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news/claude-opus-4-7"
+        }
+      ],
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    {
+      "title": "Claude Design 让模型厂商进入创意交付链",
+      "summary": "Anthropic Labs 推出 Claude Design，让用户协作生成设计、原型、幻灯片、一页纸等视觉材料。",
+      "reason": "这不是简单的图片生成，而是模型厂商向“知识工作交付物”扩张。它会影响轻量设计工具、PPT 工具、内容工作流和品牌资产管理产品的边界。",
+      "score": 80,
+      "rank": 2,
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "sources": [
+        {
+          "name": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+        }
+      ],
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+    },
+    {
+      "title": "Google Gemini CLI 抢占开发者终端入口",
+      "summary": "Gemini CLI 以开源 agent 的方式把 Gemini 能力带进终端。",
+      "reason": "终端是开发者最稳定的工作入口之一。Google 如果能在 CLI 场景里建立默认心智，就能进一步绑定项目上下文、工具调用、云服务和企业账号体系。",
+      "score": 72,
+      "rank": 3,
+      "published_at": "2026-05-02T02:10:41Z",
+      "sources": [
+        {
+          "name": "GitHub AI Repositories",
+          "url": "https://github.com/google-gemini/gemini-cli"
+        }
+      ],
+      "url": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "title": "Anthropic 与 Amazon 扩大多 gigawatt 级算力合作",
+      "summary": "Anthropic 与 Amazon 的合作扩展到 up to 5 gigawatts 的新计算资源。",
+      "reason": "模型平台能力越来越依赖长期算力锁定。对应用开发者来说，这会影响模型稳定性、成本结构和平台议价能力，也提醒产品要保留多模型适配空间。",
+      "score": 56,
+      "rank": 4,
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "sources": [
+        {
+          "name": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news/anthropic-amazon-compute"
+        }
+      ],
+      "url": "https://www.anthropic.com/news/anthropic-amazon-compute"
+    },
+    {
+      "title": "Meta Autodata 把 agentic workflow 推向训练数据生产",
+      "summary": "Meta 发布 Autodata 这类 agentic framework，让 AI 模型自动化高质量训练数据创建流程。",
+      "reason": "agentic workflow 不只用于聊天或编码，也会进入数据生产、评估和模型迭代环节。数据团队可能需要新的监控、质量评估和人机协作工具。",
+      "score": 52,
+      "rank": 5,
+      "published_at": "2026-05-01T22:24:02+00:00",
+      "sources": [
+        {
+          "name": "Planet AI",
+          "url": "https://www.marktechpost.com/2026/05/01/meta-introduces-autodata-an-agentic-framework-that-turns-ai-models-into-autonomous-data-scientists-for-high-quality-training-data-creation"
+        }
+      ],
+      "url": "https://www.marktechpost.com/2026/05/01/meta-introduces-autodata-an-agentic-framework-that-turns-ai-models-into-autonomous-data-scientists-for-high-quality-training-data-creation"
+    }
+  ],
+  "pain_points": [
+    {
+      "title": "AI 代理花钱太快，但价值归因太慢",
+      "summary": "高频使用 Claude Code 这类工具后，预算消耗会很快出现，但团队未必能解释这些成本对应了哪些任务和成果。",
+      "reason": "这是从个人试用走向团队采购时最现实的阻力。没有成本归因，管理者只会看到账单上升，很难判断该扩容还是限流。",
+      "score": 64,
+      "rank": 1,
+      "published_at": "2026-05-01T16:08:53+00:00",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months"
+        }
+      ],
+      "url": "https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months"
+    },
+    {
+      "title": "Agent 做过什么仍然不够透明",
+      "summary": "围绕 Claude Code 规范文件、记忆插件和会话记录的需求，反映出用户担心 agent 的上下文和行动不可追踪。",
+      "reason": "一旦 agent 能改代码、调用工具或影响生产流程，透明度就不只是体验问题，而是信任、协作和合规问题。",
+      "score": 72,
+      "rank": 2,
+      "published_at": "2026-05-01T21:13:08+00:00",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/anthropics/claude-code/issues/6235"
+        },
+        {
+          "name": "GitHub AI Repositories",
+          "url": "https://github.com/thedotmack/claude-mem"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/issues/6235"
+    },
+    {
+      "title": "生成内容离可交付成品还有一段距离",
+      "summary": "Claude Design 的方向说明，用户不满足于“生成一些素材”，而是希望 AI 帮自己完成可展示、可修改、可交付的作品。",
+      "reason": "很多 AI 产品卡在半成品阶段。能补齐品牌一致性、团队审阅、版本管理和导出流程的工具，更接近真实购买决策。",
       "score": 80,
       "rank": 3,
       "published_at": "2026-05-02T00:00:00+00:00",
@@ -371,8 +379,8 @@
       "title": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "source": "GitHub AI Repositories",
-      "published_at": "2026-05-02T14:06:01Z",
-      "summary": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. Stars: 70929",
+      "published_at": "2026-05-02T14:24:25Z",
+      "summary": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. Stars: 70931",
       "category": "product",
       "score": 72,
       "rank": 7,
@@ -386,7 +394,7 @@
       "url": "https://github.com/langgenius/dify",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T09:34:01Z",
-      "summary": "Production-ready platform for agentic workflow development. Stars: 139866",
+      "summary": "Production-ready platform for agentic workflow development. Stars: 139858",
       "category": "product",
       "score": 70,
       "rank": 8,
@@ -399,8 +407,8 @@
       "title": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
       "source": "GitHub AI Repositories",
-      "published_at": "2026-05-02T13:32:03Z",
-      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. Stars: 186459",
+      "published_at": "2026-05-02T14:20:21Z",
+      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. Stars: 186451",
       "category": "product",
       "score": 70,
       "rank": 9,
@@ -654,7 +662,7 @@
       "url": "https://github.com/bytedance/deer-flow",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T14:08:11Z",
-      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. Stars: 64498",
+      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. Stars: 64499",
       "category": "product",
       "score": 54,
       "rank": 27,
@@ -682,7 +690,7 @@
       "url": "https://github.com/code-yeongyu/oh-my-openagent",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T08:54:22Z",
-      "summary": "omo; the best agent harness - previously oh-my-opencode Stars: 55447",
+      "summary": "omo; the best agent harness - previously oh-my-opencode Stars: 55451",
       "category": "product",
       "score": 54,
       "rank": 29,
@@ -696,7 +704,7 @@
       "url": "https://github.com/koala73/worldmonitor",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T13:18:48Z",
-      "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface Stars: 53222",
+      "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface Stars: 53224",
       "category": "product",
       "score": 54,
       "rank": 30,
@@ -710,7 +718,7 @@
       "url": "https://github.com/langchain-ai/langchain",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T08:33:02Z",
-      "summary": "The agent engineering platform Stars: 135629",
+      "summary": "The agent engineering platform Stars: 135624",
       "category": "product",
       "score": 54,
       "rank": 31,
@@ -723,8 +731,8 @@
       "title": "lobehub/lobehub",
       "url": "https://github.com/lobehub/lobehub",
       "source": "GitHub AI Repositories",
-      "published_at": "2026-05-02T14:07:22Z",
-      "summary": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction. Stars: 75947",
+      "published_at": "2026-05-02T14:23:51Z",
+      "summary": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction. Stars: 75948",
       "category": "product",
       "score": 54,
       "rank": 32,
@@ -738,7 +746,7 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T10:38:03Z",
-      "summary": "The agent that grows with you Stars: 129182",
+      "summary": "The agent that grows with you Stars: 129199",
       "category": "product",
       "score": 54,
       "rank": 33,
@@ -752,7 +760,7 @@
       "url": "https://github.com/OpenBB-finance/OpenBB",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T06:07:00Z",
-      "summary": "Financial data platform for analysts, quants and AI agents. Stars: 66873",
+      "summary": "Financial data platform for analysts, quants and AI agents. Stars: 66874",
       "category": "product",
       "score": 54,
       "rank": 34,
@@ -780,7 +788,7 @@
       "url": "https://fusion.adam.new/install",
       "source": "Hacker News",
       "published_at": "2026-05-01T17:43:53+00:00",
-      "summary": "87 points, 86 comments",
+      "summary": "88 points, 86 comments",
       "category": "product",
       "score": 54,
       "rank": 36,
@@ -948,7 +956,7 @@
       "url": "https://x.com/aaronp613/status/2049986504617820551",
       "source": "Hacker News",
       "published_at": "2026-05-01T11:08:32+00:00",
-      "summary": "372 points, 313 comments",
+      "summary": "372 points, 314 comments",
       "category": "product",
       "score": 48,
       "rank": 48,
@@ -1313,7 +1321,7 @@
       "url": "https://californiawaterblog.com/2026/04/26/ai-water-use-distractions-and-lessons-for-california",
       "source": "Hacker News",
       "published_at": "2026-05-01T17:18:58+00:00",
-      "summary": "380 points, 360 comments",
+      "summary": "381 points, 360 comments",
       "category": "product",
       "score": 30,
       "rank": 74,
@@ -1355,7 +1363,7 @@
       "url": "https://news.ycombinator.com/item?id=47975571",
       "source": "Hacker News",
       "published_at": "2026-05-01T15:00:07+00:00",
-      "summary": "278 points, 293 comments",
+      "summary": "278 points, 295 comments",
       "category": "product",
       "score": 30,
       "rank": 77,
@@ -1425,7 +1433,7 @@
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T13:53:23Z",
-      "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. Stars: 111049",
+      "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. Stars: 111046",
       "category": "product",
       "score": 30,
       "rank": 82,
@@ -1453,7 +1461,7 @@
       "url": "https://github.com/daytonaio/daytona",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T10:51:52Z",
-      "summary": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code Stars: 72382",
+      "summary": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code Stars: 72381",
       "category": "product",
       "score": 30,
       "rank": 84,
@@ -1467,7 +1475,7 @@
       "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4",
       "source": "Hacker News",
       "published_at": "2026-05-01T16:52:43+00:00",
-      "summary": "239 points, 129 comments",
+      "summary": "248 points, 136 comments",
       "category": "product",
       "score": 30,
       "rank": 85,
@@ -1495,7 +1503,7 @@
       "url": "https://github.com/firecrawl/firecrawl",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T06:46:58Z",
-      "summary": "🔥 The API to search, scrape, and interact with the web for AI Stars: 114070",
+      "summary": "🔥 The API to search, scrape, and interact with the web for AI Stars: 114079",
       "category": "product",
       "score": 30,
       "rank": 87,
@@ -1564,8 +1572,8 @@
       "title": "meilisearch/meilisearch",
       "url": "https://github.com/meilisearch/meilisearch",
       "source": "GitHub AI Repositories",
-      "published_at": "2026-05-02T12:50:59Z",
-      "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. Stars: 57388",
+      "published_at": "2026-05-02T14:22:05Z",
+      "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. Stars: 57389",
       "category": "product",
       "score": 30,
       "rank": 92,
@@ -1620,8 +1628,8 @@
       "title": "netdata/netdata",
       "url": "https://github.com/netdata/netdata",
       "source": "GitHub AI Repositories",
-      "published_at": "2026-05-02T11:24:05Z",
-      "summary": "The fastest path to AI-powered full stack observability, even for lean teams. Stars: 78675",
+      "published_at": "2026-05-02T14:23:27Z",
+      "summary": "The fastest path to AI-powered full stack observability, even for lean teams. Stars: 78674",
       "category": "product",
       "score": 30,
       "rank": 96,
@@ -1634,8 +1642,8 @@
       "title": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "source": "GitHub AI Repositories",
-      "published_at": "2026-05-02T14:12:21Z",
-      "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞  Stars: 367417",
+      "published_at": "2026-05-02T14:31:36Z",
+      "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞  Stars: 367425",
       "category": "product",
       "score": 30,
       "rank": 97,
@@ -1691,7 +1699,7 @@
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T08:09:44Z",
-      "summary": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. Stars: 183947",
+      "summary": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. Stars: 183940",
       "category": "product",
       "score": 30,
       "rank": 101,
@@ -1719,7 +1727,7 @@
       "url": "https://www.bbc.com/news/articles/c5yerr4m1yno",
       "source": "Hacker News",
       "published_at": "2026-05-01T16:42:41+00:00",
-      "summary": "248 points, 272 comments",
+      "summary": "248 points, 273 comments",
       "category": "product",
       "score": 30,
       "rank": 103,
@@ -1817,7 +1825,7 @@
       "url": "https://github.com/Lum1104/Understand-Anything",
       "source": "Hacker News",
       "published_at": "2026-05-01T17:27:03+00:00",
-      "summary": "139 points, 44 comments",
+      "summary": "140 points, 44 comments",
       "category": "product",
       "score": 30,
       "rank": 110,
@@ -2206,116 +2214,118 @@
     }
   ],
   "analysis": {
-    "summary": "今天的信号集中在三个方向：一是 Claude、Gemini 等编码/创作代理继续向专业工作流下沉；二是企业开始暴露 AI 代理成本、权限和审计问题；三是基础设施与平台合作正在把算力、分发和生态绑定得更紧。产品机会不在“再做一个聊天框”，而在帮助团队管理代理的行为、成本、上下文和交付物质量。",
+    "summary": "今天的 AI 产品机会明显从“模型能力展示”转向“代理进入真实工作流后的管理问题”：预算消耗、行为审计、上下文复用、交付物质量和团队协作层都开始成为显性需求。巨头侧，Anthropic 继续用 Opus 4.7、Claude Design 和算力合作扩大高价值工作负载边界，Google Gemini CLI 抢占开发者终端入口，Meta 的 agentic data framework 则显示“自动化专业流程”正在扩散到训练数据和数据科学。值得跟进的不是再做一个聊天框，而是围绕 agent 的成本、权限、上下文、交付和治理做基础设施。",
     "opportunities": [
       {
-        "title": "AI 代理成本与预算监控",
-        "summary": "Uber 在 Claude Code 上快速消耗 AI 预算的讨论，说明团队已经不只关心模型能力，也开始关心代理使用的财务可控性。",
-        "reason": "当 AI 编码工具进入高频工作流，成本会从 API 账单变成团队管理问题。可按项目、人员、任务和收益追踪的成本分析工具，有机会成为企业采用代理前的基础设施。",
+        "title": "Agent 成本治理与预算归因",
+        "summary": "Claude Code 预算消耗的高讨论度说明，团队已经开始担心 AI 代理从效率工具变成不可控成本中心。",
+        "reason": "当代理进入高频开发和运营流程，企业需要的不只是总账单，而是按项目、人员、任务、模型和产出拆解成本。能把 agent 使用量、业务收益和异常消耗连起来的产品，会成为企业规模化采用前的刚需。",
         "source_urls": [
           "https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months"
         ]
       },
       {
-        "title": "Agent 行为审计与上下文记忆",
-        "summary": "Claude Code 插件和记忆工具的流行，显示开发者希望记录代理做过什么、为什么这样做，并在未来会话里复用上下文。",
-        "reason": "代理越能自主行动，团队越需要可追溯的行为日志、上下文压缩、会话记忆和复盘能力。这是从个人效率工具走向团队协作工具的关键缺口。",
-        "source_urls": [
-          "https://github.com/thedotmack/claude-mem",
-          "https://github.com/anthropics/claude-code/issues/6235"
-        ]
-      },
-      {
-        "title": "面向非设计师的 AI 视觉交付工作台",
-        "summary": "Claude Design 把设计、原型、幻灯片和 one-pager 放到 Claude 协作流里，说明模型厂商正在争夺“最终交付物”入口。",
-        "reason": "很多用户的痛点不是生成灵感，而是把想法变成能发给客户、老板或用户的成品。围绕品牌规范、版本比较、素材复用和团队审阅做产品，会比单点生成更有粘性。",
-        "source_urls": [
-          "https://www.anthropic.com/news/claude-design-anthropic-labs"
-        ]
-      },
-      {
-        "title": "开源 AI 工作流编排的企业化封装",
-        "summary": "Dify、n8n 等项目持续获得关注，说明用户需要把模型、工具、数据库和业务系统串成稳定工作流。",
-        "reason": "市场需要的不是单个 agent demo，而是权限、观测、回滚、版本和集成齐全的生产化工作流。围绕特定行业场景做轻量封装，可能比通用平台更容易切入。",
-        "source_urls": [
-          "https://github.com/langgenius/dify",
-          "https://github.com/n8n-io/n8n"
-        ]
-      },
-      {
-        "title": "CLI 原生 AI 代理的团队协作层",
-        "summary": "Gemini CLI 和 Claude Code 生态都在增长，终端正在成为 AI 代理的重要入口。",
-        "reason": "CLI 工具强在个人效率，但团队还缺少共享配置、策略、审计、模板和最佳实践沉淀。围绕 CLI agent 的团队层，有机会连接开发者习惯和企业治理。",
-        "source_urls": [
-          "https://github.com/google-gemini/gemini-cli",
-          "https://github.com/anthropics/claude-code/issues/6235"
-        ]
-      }
-    ],
-    "big_tech": [
-      {
-        "title": "Anthropic 用 Claude Opus 4.7 强化高价值工作负载",
-        "summary": "Anthropic 官方强调 Opus 4.7 在编码、代理、视觉和多步骤任务上的一致性和彻底性。",
-        "reason": "高端模型正在围绕复杂工作流竞争，而不是单轮问答。对产品团队来说，可靠性、长任务完成度和可复核性会成为新的卖点。",
-        "source_urls": [
-          "https://www.anthropic.com/news/claude-opus-4-7"
-        ]
-      },
-      {
-        "title": "Anthropic Labs 推出 Claude Design",
-        "summary": "Claude Design 让用户与 Claude 协作生成设计、原型、幻灯片和一页纸材料。",
-        "reason": "模型厂商正在越过 API 和聊天界面，直接进入知识工作者的交付物生产流程。这会压缩一批轻量设计/文档工具的空间，也会创造插件和垂直模板机会。",
-        "source_urls": [
-          "https://www.anthropic.com/news/claude-design-anthropic-labs"
-        ]
-      },
-      {
-        "title": "Google Gemini CLI 把模型能力带进终端",
-        "summary": "Gemini CLI 以开源 AI agent 的方式进入开发者终端工作流。",
-        "reason": "开发者入口是 AI 平台争夺生态的关键位置。谁能在终端里成为默认助手，谁就更容易绑定上下文、工具调用和企业账号体系。",
-        "source_urls": [
-          "https://github.com/google-gemini/gemini-cli"
-        ]
-      },
-      {
-        "title": "Anthropic 与 Amazon 扩大算力合作",
-        "summary": "Anthropic 与 Amazon 的合作扩展到多 gigawatt 级别的新计算资源。",
-        "reason": "模型能力竞争越来越依赖长期算力合同。对应用层创业者来说，平台稳定性、价格走势和模型可得性都可能被这些基础设施合作影响。",
-        "source_urls": [
-          "https://www.anthropic.com/news/anthropic-amazon-compute"
-        ]
-      },
-      {
-        "title": "Anthropic 与 Google/Broadcom 继续绑定下一代计算",
-        "summary": "Anthropic 扩大与 Google 和 Broadcom 的下一代计算合作。",
-        "reason": "主要模型公司同时绑定多个云和芯片伙伴，说明供应链韧性会成为平台战略的一部分。应用团队需要避免过度依赖单一模型或单一供应商。",
-        "source_urls": [
-          "https://www.anthropic.com/news/google-broadcom-partnership-compute"
-        ]
-      }
-    ],
-    "pain_points": [
-      {
-        "title": "代理成本不可解释",
-        "summary": "团队可能快速消耗 AI 工具预算，但很难把花费和具体任务、产出或团队行为对应起来。",
-        "reason": "这是企业采购和规模化使用的直接阻力。没有成本归因，AI 代理很难从个人效率工具升级为团队基础设施。",
-        "source_urls": [
-          "https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months"
-        ]
-      },
-      {
-        "title": "代理行为缺少审计轨迹",
-        "summary": "开发者需要知道 Claude Code 等代理支持哪些团队规范、读过哪些上下文、做过哪些改动。",
-        "reason": "当代理能改代码、生成文件或调用工具时，可追溯性会直接影响信任、协作和合规。",
+        "title": "Agent 行为审计与团队记忆层",
+        "summary": "Claude Code 的 AGENTS.md 支持诉求和 claude-mem 这类插件，说明开发者需要记录代理读了什么、做了什么、为什么这样做，并让这些上下文能被团队复用。",
+        "reason": "代理越自主，越需要可追溯的操作日志、上下文压缩、会话记忆和团队规范注入。这个需求介于 IDE 插件、知识库和合规审计之间，适合做成跨工具的 agent memory / audit layer。",
         "source_urls": [
           "https://github.com/anthropics/claude-code/issues/6235",
           "https://github.com/thedotmack/claude-mem"
         ]
       },
       {
-        "title": "从生成到交付仍有落差",
-        "summary": "Claude Design 的推出反映出用户希望 AI 不只是给建议，而是协助产出可以展示、评审和交付的视觉作品。",
-        "reason": "用户真正购买的是完成工作，而不是生成片段。产品如果能补齐版本、品牌、审阅和导出，就能抓住更靠近结果的价值。",
+        "title": "AI 视觉交付工作台，而不是单点生成器",
+        "summary": "Claude Design 把设计、原型、幻灯片和 one-pager 放进 Claude 协作流，表明模型厂商正在直接争夺“最终交付物”入口。",
+        "reason": "用户真正要买的是能拿去汇报、评审、发客户的成品。围绕品牌规范、版本对比、素材复用、审批批注和多格式导出做产品，会比单次图片/幻灯片生成更接近付费价值。",
+        "source_urls": [
+          "https://www.anthropic.com/news/claude-design-anthropic-labs"
+        ]
+      },
+      {
+        "title": "开源 AI 工作流平台的垂直封装",
+        "summary": "Dify、n8n、LangChain 等项目持续高热，说明用户需要把模型、工具、数据库和业务系统编排成可运行的流程。",
+        "reason": "通用平台很强，但企业落地常常卡在场景模板、权限、监控、回滚和集成细节。围绕客服、销售、数据分析、研发协作等垂直流程做轻量封装，可能比再做一个通用 agent builder 更容易产生收入。",
+        "source_urls": [
+          "https://github.com/langgenius/dify",
+          "https://github.com/n8n-io/n8n",
+          "https://github.com/langchain-ai/langchain"
+        ]
+      },
+      {
+        "title": "CLI Agent 的团队协作层",
+        "summary": "Gemini CLI、Claude Code 相关插件以及终端 agent 通信工具同时出现，说明终端正在成为 AI agent 的重要入口。",
+        "reason": "CLI agent 适合个人高手，但团队还缺共享配置、策略模板、任务队列、审计面板和安全边界。谁能把终端 agent 变成团队可管理的工作系统，谁就能抓住开发者组织里的高频入口。",
+        "source_urls": [
+          "https://github.com/google-gemini/gemini-cli",
+          "https://github.com/leox255/loopsy",
+          "https://omar.tech"
+        ]
+      }
+    ],
+    "big_tech": [
+      {
+        "title": "Anthropic 用 Claude Opus 4.7 加码复杂工作流",
+        "summary": "Anthropic 官方称 Opus 4.7 在编码、代理、视觉和多步骤任务上有更强表现和一致性。",
+        "reason": "模型竞争重点正在从单轮回答转向长任务可靠性。应用层产品要重新评估哪些流程可以交给更强的 agent 执行，以及如何设计复核、回滚和质量门槛。",
+        "source_urls": [
+          "https://www.anthropic.com/news/claude-opus-4-7"
+        ]
+      },
+      {
+        "title": "Claude Design 让模型厂商进入创意交付链",
+        "summary": "Anthropic Labs 推出 Claude Design，让用户协作生成设计、原型、幻灯片、一页纸等视觉材料。",
+        "reason": "这不是简单的图片生成，而是模型厂商向“知识工作交付物”扩张。它会影响轻量设计工具、PPT 工具、内容工作流和品牌资产管理产品的边界。",
+        "source_urls": [
+          "https://www.anthropic.com/news/claude-design-anthropic-labs"
+        ]
+      },
+      {
+        "title": "Google Gemini CLI 抢占开发者终端入口",
+        "summary": "Gemini CLI 以开源 agent 的方式把 Gemini 能力带进终端。",
+        "reason": "终端是开发者最稳定的工作入口之一。Google 如果能在 CLI 场景里建立默认心智，就能进一步绑定项目上下文、工具调用、云服务和企业账号体系。",
+        "source_urls": [
+          "https://github.com/google-gemini/gemini-cli"
+        ]
+      },
+      {
+        "title": "Anthropic 与 Amazon 扩大多 gigawatt 级算力合作",
+        "summary": "Anthropic 与 Amazon 的合作扩展到 up to 5 gigawatts 的新计算资源。",
+        "reason": "模型平台能力越来越依赖长期算力锁定。对应用开发者来说，这会影响模型稳定性、成本结构和平台议价能力，也提醒产品要保留多模型适配空间。",
+        "source_urls": [
+          "https://www.anthropic.com/news/anthropic-amazon-compute"
+        ]
+      },
+      {
+        "title": "Meta Autodata 把 agentic workflow 推向训练数据生产",
+        "summary": "Meta 发布 Autodata 这类 agentic framework，让 AI 模型自动化高质量训练数据创建流程。",
+        "reason": "agentic workflow 不只用于聊天或编码，也会进入数据生产、评估和模型迭代环节。数据团队可能需要新的监控、质量评估和人机协作工具。",
+        "source_urls": [
+          "https://www.marktechpost.com/2026/05/01/meta-introduces-autodata-an-agentic-framework-that-turns-ai-models-into-autonomous-data-scientists-for-high-quality-training-data-creation"
+        ]
+      }
+    ],
+    "pain_points": [
+      {
+        "title": "AI 代理花钱太快，但价值归因太慢",
+        "summary": "高频使用 Claude Code 这类工具后，预算消耗会很快出现，但团队未必能解释这些成本对应了哪些任务和成果。",
+        "reason": "这是从个人试用走向团队采购时最现实的阻力。没有成本归因，管理者只会看到账单上升，很难判断该扩容还是限流。",
+        "source_urls": [
+          "https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months"
+        ]
+      },
+      {
+        "title": "Agent 做过什么仍然不够透明",
+        "summary": "围绕 Claude Code 规范文件、记忆插件和会话记录的需求，反映出用户担心 agent 的上下文和行动不可追踪。",
+        "reason": "一旦 agent 能改代码、调用工具或影响生产流程，透明度就不只是体验问题，而是信任、协作和合规问题。",
+        "source_urls": [
+          "https://github.com/anthropics/claude-code/issues/6235",
+          "https://github.com/thedotmack/claude-mem"
+        ]
+      },
+      {
+        "title": "生成内容离可交付成品还有一段距离",
+        "summary": "Claude Design 的方向说明，用户不满足于“生成一些素材”，而是希望 AI 帮自己完成可展示、可修改、可交付的作品。",
+        "reason": "很多 AI 产品卡在半成品阶段。能补齐品牌一致性、团队审阅、版本管理和导出流程的工具，更接近真实购买决策。",
         "source_urls": [
           "https://www.anthropic.com/news/claude-design-anthropic-labs"
         ]
