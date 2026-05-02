@@ -61,22 +61,33 @@ def build_report_payload(
 def write_report_files(root: Path, payload: dict[str, Any]) -> dict[str, Path]:
     report_date = payload["date"]
     reports_dir = root / "reports"
+    site_reports_dir = root / "site/reports"
     data_reports_dir = root / "site/data/reports"
     reports_dir.mkdir(parents=True, exist_ok=True)
+    site_reports_dir.mkdir(parents=True, exist_ok=True)
     data_reports_dir.mkdir(parents=True, exist_ok=True)
     (root / "site/data").mkdir(parents=True, exist_ok=True)
 
     markdown_path = reports_dir / f"{report_date}.md"
+    site_markdown_path = site_reports_dir / f"{report_date}.md"
     report_json_path = data_reports_dir / f"{report_date}.json"
     latest_path = root / "site/data/latest.json"
     archive_path = root / "site/data/archive.json"
 
-    markdown_path.write_text(render_markdown(payload), encoding="utf-8")
+    markdown = render_markdown(payload)
+    markdown_path.write_text(markdown, encoding="utf-8")
+    site_markdown_path.write_text(markdown, encoding="utf-8")
     report_json_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     latest_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     write_archive(archive_path, payload)
 
-    return {"markdown": markdown_path, "json": report_json_path, "latest": latest_path, "archive": archive_path}
+    return {
+        "markdown": markdown_path,
+        "site_markdown": site_markdown_path,
+        "json": report_json_path,
+        "latest": latest_path,
+        "archive": archive_path,
+    }
 
 
 def write_archive(path: Path, payload: dict[str, Any]) -> None:

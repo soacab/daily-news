@@ -21,3 +21,29 @@ scripts/daily-news run-daily --date 2026-05-02 --no-push
 ## 发布
 
 `scripts/daily-news publish` 会提交本地变更并推送到当前 git remote。GitHub Pages 只部署静态站，不参与内容生成。
+
+## 首次 GitHub 设置
+
+当前实现假设你会新建一个公开仓库并把它设为 `origin`。如果使用 GitHub CLI，可以在本机重新登录后运行：
+
+```bash
+gh auth login -h github.com
+gh repo create daily-news --public --source=. --remote=origin --push
+```
+
+如果不用 GitHub CLI，也可以在网页上新建 `daily-news` 仓库，再运行：
+
+```bash
+git remote add origin git@github.com:<your-user>/daily-news.git
+git push -u origin main
+```
+
+## Codex 自动化
+
+Codex app 里已有一个每日任务 `daily-news local generator`，计划每天北京时间 08:00 在本地运行：
+
+```bash
+scripts/daily-news run-daily
+```
+
+请在 Codex 自动化运行环境里提供 `OPENAI_API_KEY`，并确保本机 git remote 与 GitHub 凭据可用。GitHub Actions workflow 只部署 `site/`，不会读取 OpenAI key。

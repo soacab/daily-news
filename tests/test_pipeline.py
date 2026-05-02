@@ -129,10 +129,12 @@ class PipelineTests(unittest.TestCase):
             paths = write_report_files(root, payload)
 
             markdown = paths["markdown"].read_text(encoding="utf-8")
+            site_markdown_exists = (root / "site/reports/2026-05-02.md").exists()
             latest = json.loads((root / "site/data/latest.json").read_text(encoding="utf-8"))
             archive = json.loads((root / "site/data/archive.json").read_text(encoding="utf-8"))
 
         self.assertIn("# AI 产品机会日报 · 2026-05-02", markdown)
+        self.assertTrue(site_markdown_exists)
         self.assertEqual(latest["date"], "2026-05-02")
         self.assertEqual(latest["opportunities"][0]["title"], candidate.title)
         self.assertEqual(archive["reports"][0]["path"], "reports/2026-05-02.md")
