@@ -1,0 +1,6 @@
+.cache/
+.env
+.superpowers/
+__pycache__/
+*.pyc
+.DS_Store

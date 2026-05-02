@@ -1,0 +1,8 @@
+[project]
+name = "daily-news"
+version = "0.1.0"
+description = "Local AI product opportunity daily report generator"
+requires-python = ">=3.11"
+
+[project.scripts]
+daily-news = "daily_news.cli:main"

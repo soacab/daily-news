@@ -1,0 +1,2025 @@
+{
+  "date": "2026-05-02",
+  "title": "AI 产品机会日报",
+  "summary": "今天的 AI 产品机会主要来自产品发布、社区痛点和巨头平台动作的交叉信号。",
+  "opportunities": [
+    {
+      "title": "Claude Code still doesn't support AGENTS.md",
+      "summary": "6 points, 0 comments",
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "score": 72,
+      "rank": 1,
+      "published_at": "2026-05-01T21:13:08+00:00",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/anthropics/claude-code/issues/6235"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/issues/6235"
+    },
+    {
+      "title": "google-gemini/gemini-cli",
+      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal. Stars: 102936",
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "score": 72,
+      "rank": 2,
+      "published_at": "2026-05-02T02:10:41Z",
+      "sources": [
+        {
+          "name": "GitHub AI Repositories",
+          "url": "https://github.com/google-gemini/gemini-cli"
+        }
+      ],
+      "url": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "title": "Our agent found a bug with WireGuard in Google Kubernetes Engine",
+      "summary": "66 points, 36 comments",
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "score": 72,
+      "rank": 3,
+      "published_at": "2026-05-01T08:14:07+00:00",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://lovable.dev/blog/hunting-networking-bugs-in-kubernetes"
+        }
+      ],
+      "url": "https://lovable.dev/blog/hunting-networking-bugs-in-kubernetes"
+    },
+    {
+      "title": "Show HN: Destiny – Claude Code's fortune Teller skill",
+      "summary": "41 points, 40 comments",
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "score": 72,
+      "rank": 4,
+      "published_at": "2026-05-01T19:56:18+00:00",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/xodn348/destiny"
+        }
+      ],
+      "url": "https://github.com/xodn348/destiny"
+    },
+    {
+      "title": "thedotmack/claude-mem",
+      "summary": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. Stars: 70927",
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "score": 72,
+      "rank": 5,
+      "published_at": "2026-05-02T14:06:01Z",
+      "sources": [
+        {
+          "name": "GitHub AI Repositories",
+          "url": "https://github.com/thedotmack/claude-mem"
+        }
+      ],
+      "url": "https://github.com/thedotmack/claude-mem"
+    }
+  ],
+  "big_tech": [
+    {
+      "title": "Security Affairs",
+      "summary": "Techmeme industry signal.",
+      "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
+      "score": 68,
+      "rank": 8,
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "sources": [
+        {
+          "name": "Techmeme River",
+          "url": "https://securityaffairs.com"
+        }
+      ],
+      "url": "https://securityaffairs.com"
+    },
+    {
+      "title": "Avoca, whose AI agents let physical services businesses handle inbound calls and dispatch, raised $125M+ across seed, Series A, and Series B at a $1B valuation",
+      "summary": "Techmeme industry signal.",
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "score": 52,
+      "rank": 30,
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "sources": [
+        {
+          "name": "Techmeme River",
+          "url": "https://fortune.com/2026/04/27/avoca-ai-agents-missed-calls-hvac-plumbing-roofing-kleiner-perkins-chen-shrivastava-braswell"
+        }
+      ],
+      "url": "https://fortune.com/2026/04/27/avoca-ai-agents-missed-calls-hvac-plumbing-roofing-kleiner-perkins-chen-shrivastava-braswell"
+    },
+    {
+      "title": "Some retail traders are training AI agents to buy and sell assets on their behalf, as exchanges like Polymarket and Bybit roll out agent-friendly interfaces",
+      "summary": "Techmeme industry signal.",
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "score": 52,
+      "rank": 32,
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "sources": [
+        {
+          "name": "Techmeme River",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-01/ai-tools-for-stock-trading-put-up-mixed-results"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-05-01/ai-tools-for-stock-trading-put-up-mixed-results"
+    },
+    {
+      "title": "The US, UK, Australia, Canada, and New Zealand publish guidance on orgs' use of agentic AI systems, saying many give AI more access than can be safely monitored",
+      "summary": "Techmeme industry signal.",
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "score": 52,
+      "rank": 33,
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "sources": [
+        {
+          "name": "Techmeme River",
+          "url": "https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents"
+        }
+      ],
+      "url": "https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents"
+    },
+    {
+      "title": "xAI launches Grok 4.3, featuring “always-on reasoning”, 1M token context window, and low API pricing, and releases a voice cloning suite called Custom Voices",
+      "summary": "Techmeme industry signal.",
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "score": 52,
+      "rank": 34,
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "sources": [
+        {
+          "name": "Techmeme River",
+          "url": "https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite"
+        }
+      ],
+      "url": "https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite"
+    }
+  ],
+  "pain_points": [
+    {
+      "title": "langgenius/dify",
+      "summary": "Production-ready platform for agentic workflow development. Stars: 139866",
+      "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
+      "score": 70,
+      "rank": 6,
+      "published_at": "2026-05-02T09:34:01Z",
+      "sources": [
+        {
+          "name": "GitHub AI Repositories",
+          "url": "https://github.com/langgenius/dify"
+        }
+      ],
+      "url": "https://github.com/langgenius/dify"
+    },
+    {
+      "title": "n8n-io/n8n",
+      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. Stars: 186458",
+      "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
+      "score": 70,
+      "rank": 7,
+      "published_at": "2026-05-02T13:32:03Z",
+      "sources": [
+        {
+          "name": "GitHub AI Repositories",
+          "url": "https://github.com/n8n-io/n8n"
+        }
+      ],
+      "url": "https://github.com/n8n-io/n8n"
+    },
+    {
+      "title": "Security Affairs",
+      "summary": "Techmeme industry signal.",
+      "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
+      "score": 68,
+      "rank": 8,
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "sources": [
+        {
+          "name": "Techmeme River",
+          "url": "https://securityaffairs.com"
+        }
+      ],
+      "url": "https://securityaffairs.com"
+    }
+  ],
+  "source_health": [
+    {
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 0,
+      "error": ""
+    },
+    {
+      "name": "Anthropic Newsroom",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Google DeepMind Blog",
+      "ok": true,
+      "count": 0,
+      "error": ""
+    },
+    {
+      "name": "NVIDIA Blog",
+      "ok": true,
+      "count": 0,
+      "error": ""
+    },
+    {
+      "name": "Product Hunt",
+      "ok": true,
+      "count": 2,
+      "error": ""
+    },
+    {
+      "name": "Planet AI",
+      "ok": true,
+      "count": 23,
+      "error": ""
+    },
+    {
+      "name": "Hacker News",
+      "ok": true,
+      "count": 63,
+      "error": ""
+    },
+    {
+      "name": "GitHub AI Repositories",
+      "ok": true,
+      "count": 20,
+      "error": ""
+    },
+    {
+      "name": "Hugging Face",
+      "ok": true,
+      "count": 20,
+      "error": ""
+    },
+    {
+      "name": "Techmeme River",
+      "ok": true,
+      "count": 20,
+      "error": ""
+    }
+  ],
+  "low_signal": false,
+  "all_candidates": [
+    {
+      "title": "Claude Code still doesn't support AGENTS.md",
+      "url": "https://github.com/anthropics/claude-code/issues/6235",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T21:13:08+00:00",
+      "summary": "6 points, 0 comments",
+      "category": "product",
+      "score": 72,
+      "rank": 1,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T02:10:41Z",
+      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal. Stars: 102936",
+      "category": "product",
+      "score": 72,
+      "rank": 2,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "Our agent found a bug with WireGuard in Google Kubernetes Engine",
+      "url": "https://lovable.dev/blog/hunting-networking-bugs-in-kubernetes",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T08:14:07+00:00",
+      "summary": "66 points, 36 comments",
+      "category": "product",
+      "score": 72,
+      "rank": 3,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Show HN: Destiny – Claude Code's fortune Teller skill",
+      "url": "https://github.com/xodn348/destiny",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T19:56:18+00:00",
+      "summary": "41 points, 40 comments",
+      "category": "product",
+      "score": 72,
+      "rank": 4,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T14:06:01Z",
+      "summary": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. Stars: 70927",
+      "category": "product",
+      "score": 72,
+      "rank": 5,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T09:34:01Z",
+      "summary": "Production-ready platform for agentic workflow development. Stars: 139866",
+      "category": "product",
+      "score": 70,
+      "rank": 6,
+      "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T13:32:03Z",
+      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. Stars: 186458",
+      "category": "product",
+      "score": 70,
+      "rank": 7,
+      "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "Security Affairs",
+      "url": "https://securityaffairs.com",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 68,
+      "rank": 8,
+      "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "Uber torches 2026 AI budget on Claude Code in four months",
+      "url": "https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T16:08:53+00:00",
+      "summary": "386 points, 456 comments",
+      "category": "product",
+      "score": 64,
+      "rank": 9,
+      "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "A Dark-Money Campaign Is Paying Influencers to Frame Chinese AI as a Threat",
+      "url": "https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T20:25:28+00:00",
+      "summary": "Build American AI, a nonprofit linked to a super PAC bankrolled by executives at OpenAI and Andreessen Horowitz, is funding a campaign to spread pro-AI messaging and stoke fears about China. 12 points, 1 comments Techmeme industry signal.",
+      "category": "product",
+      "score": 60,
+      "rank": 10,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hacker News",
+        "Planet AI",
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "How People ask Claude for personal guidance",
+      "url": "https://www.anthropic.com/research/claude-personal-guidance",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T05:35:49+00:00",
+      "summary": "29 points, 9 comments",
+      "category": "product",
+      "score": 58,
+      "rank": 11,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "'Rogue' Cursor AI agent loses control and wipes company's database",
+      "url": "https://abcnews.com/GMA/News/rogue-ai-agent-haywire-tech-company-ceo-bullish/story?id=132473181",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T11:49:56+00:00",
+      "summary": "14 points, 12 comments",
+      "category": "product",
+      "score": 54,
+      "rank": 12,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Agentic Harness Engineering",
+      "url": "https://arxiv.org/abs/2604.25850",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T01:17:12+00:00",
+      "summary": "14 points, 0 comments",
+      "category": "product",
+      "score": 54,
+      "rank": 13,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Ara",
+      "url": "https://www.producthunt.com/products/dereference-the-100x-ide",
+      "source": "Product Hunt",
+      "published_at": "2026-05-01T01:30:46+00:00",
+      "summary": "Build an entire business by texting Discussion | Link",
+      "category": "product",
+      "score": 54,
+      "rank": 14,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Product Hunt"
+      ]
+    },
+    {
+      "title": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T14:08:11Z",
+      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. Stars: 64497",
+      "category": "product",
+      "score": 54,
+      "rank": 15,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "ClawIRC – IRC Chat for Agents",
+      "url": "https://clawirc.com",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T00:29:57+00:00",
+      "summary": "6 points, 0 comments",
+      "category": "product",
+      "score": 54,
+      "rank": 16,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "code-yeongyu/oh-my-openagent",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T08:54:22Z",
+      "summary": "omo; the best agent harness - previously oh-my-opencode Stars: 55447",
+      "category": "product",
+      "score": 54,
+      "rank": 17,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T13:18:48Z",
+      "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface Stars: 53222",
+      "category": "product",
+      "score": 54,
+      "rank": 18,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T08:33:02Z",
+      "summary": "The agent engineering platform Stars: 135629",
+      "category": "product",
+      "score": 54,
+      "rank": 19,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "lobehub/lobehub",
+      "url": "https://github.com/lobehub/lobehub",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T14:07:22Z",
+      "summary": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction. Stars: 75946",
+      "category": "product",
+      "score": 54,
+      "rank": 20,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T10:38:03Z",
+      "summary": "The agent that grows with you Stars: 129175",
+      "category": "product",
+      "score": 54,
+      "rank": 21,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "OpenBB-finance/OpenBB",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T06:07:00Z",
+      "summary": "Financial data platform for analysts, quants and AI agents. Stars: 66873",
+      "category": "product",
+      "score": 54,
+      "rank": 22,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "PeekFocus",
+      "url": "https://www.producthunt.com/products/peekfocus",
+      "source": "Product Hunt",
+      "published_at": "2026-05-01T04:57:56+00:00",
+      "summary": "One keystroke blurs everything behind your active window Discussion | Link",
+      "category": "product",
+      "score": 54,
+      "rank": 23,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Product Hunt"
+      ]
+    },
+    {
+      "title": "Show HN: AI CAD Harness",
+      "url": "https://fusion.adam.new/install",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T17:43:53+00:00",
+      "summary": "87 points, 86 comments",
+      "category": "product",
+      "score": 54,
+      "rank": 24,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Show HN: Loopsy, a way for terminals and AI agents on different machines to talk",
+      "url": "https://github.com/leox255/loopsy",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T10:25:41+00:00",
+      "summary": "53 points, 9 comments",
+      "category": "product",
+      "score": 54,
+      "rank": 25,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Show HN: Omar – A TUI for managing 100 coding agents",
+      "url": "https://omar.tech",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T18:35:13+00:00",
+      "summary": "14 points, 2 comments",
+      "category": "product",
+      "score": 54,
+      "rank": 26,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Show HN: Perfect Bluetooth MIDI for Windows",
+      "url": "https://news.ycombinator.com/item?id=47972888",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T09:52:15+00:00",
+      "summary": "102 points, 31 comments",
+      "category": "product",
+      "score": 54,
+      "rank": 27,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Show HN: Site Mogging",
+      "url": "https://sitemogging.com",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T11:32:48+00:00",
+      "summary": "64 points, 73 comments",
+      "category": "product",
+      "score": 54,
+      "rank": 28,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Show HN: Superkube - Rewriting Kubernetes in Rust",
+      "url": "https://github.com/debarshibasak/superkube",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T15:08:05+00:00",
+      "summary": "9 points, 2 comments",
+      "category": "product",
+      "score": 54,
+      "rank": 29,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Avoca, whose AI agents let physical services businesses handle inbound calls and dispatch, raised $125M+ across seed, Series A, and Series B at a $1B valuation",
+      "url": "https://fortune.com/2026/04/27/avoca-ai-agents-missed-calls-hvac-plumbing-roofing-kleiner-perkins-chen-shrivastava-braswell",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 52,
+      "rank": 30,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "Meta Introduces Autodata: An Agentic Framework That Turns AI Models into Autonomous Data Scientists for High-Quality Training Data Creation",
+      "url": "https://www.marktechpost.com/2026/05/01/meta-introduces-autodata-an-agentic-framework-that-turns-ai-models-into-autonomous-data-scientists-for-high-quality-training-data-creation",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T22:24:02+00:00",
+      "summary": "Meta Introduces Autodata: An Agentic Framework That Turns AI Models into Autonomous Data Scientists for High-Quality Training Data Creation The post Meta Introduces Autodata: An Agentic Framework That Turns AI Models into Autonomous Data Scientists for High-Quality Training Data Creation appeared first on MarkTechPost .",
+      "category": "general",
+      "score": 52,
+      "rank": 31,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Some retail traders are training AI agents to buy and sell assets on their behalf, as exchanges like Polymarket and Bybit roll out agent-friendly interfaces",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-01/ai-tools-for-stock-trading-put-up-mixed-results",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 52,
+      "rank": 32,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "The US, UK, Australia, Canada, and New Zealand publish guidance on orgs' use of agentic AI systems, saying many give AI more access than can be safely monitored",
+      "url": "https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 52,
+      "rank": 33,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "xAI launches Grok 4.3, featuring “always-on reasoning”, 1M token context window, and low API pricing, and releases a voice cloning suite called Custom Voices",
+      "url": "https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 52,
+      "rank": 34,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber",
+      "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T10:28:12+00:00",
+      "summary": "139 points, 128 comments",
+      "category": "product",
+      "score": 48,
+      "rank": 35,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Apple accidentally left Claude.md files Apple Support app",
+      "url": "https://x.com/aaronp613/status/2049986504617820551",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T11:08:32+00:00",
+      "summary": "372 points, 313 comments",
+      "category": "product",
+      "score": 48,
+      "rank": 36,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Elon Musk Seemingly Admits xAI Has Used OpenAI's Models to Train Its Own",
+      "url": "https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T05:06:38+00:00",
+      "summary": "11 points, 0 comments",
+      "category": "product",
+      "score": 48,
+      "rank": 37,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "meta-llama/Llama-2-7b",
+      "url": "https://huggingface.co/meta-llama/Llama-2-7b",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 4481 Downloads: 310",
+      "category": "product",
+      "score": 48,
+      "rank": 38,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "meta-llama/Llama-2-7b-chat-hf",
+      "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 4747 Downloads: 415889",
+      "category": "product",
+      "score": 48,
+      "rank": 39,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 5779 Downloads: 9668434",
+      "category": "product",
+      "score": 48,
+      "rank": 40,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "meta-llama/Meta-Llama-3-8B",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 6529 Downloads: 3458214",
+      "category": "product",
+      "score": 48,
+      "rank": 41,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 4500 Downloads: 1629384",
+      "category": "product",
+      "score": 48,
+      "rank": 42,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "Om Malik – What Microsoft's 10-Q Says About OpenAI",
+      "url": "https://om.co/2026/05/01/what-microsofts-10-q-says-about-openai",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T10:00:58+00:00",
+      "summary": "10 points, 0 comments",
+      "category": "product",
+      "score": 48,
+      "rank": 43,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "openai/gpt-oss-120b",
+      "url": "https://huggingface.co/openai/gpt-oss-120b",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 4753 Downloads: 4147394",
+      "category": "product",
+      "score": 48,
+      "rank": 44,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "openai/gpt-oss-20b",
+      "url": "https://huggingface.co/openai/gpt-oss-20b",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 4579 Downloads: 6942836",
+      "category": "product",
+      "score": 48,
+      "rank": 45,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "openai/whisper-large-v3",
+      "url": "https://huggingface.co/openai/whisper-large-v3",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 5649 Downloads: 4955365",
+      "category": "product",
+      "score": 48,
+      "rank": 46,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "Pentagon reaches agreements with top AI companies, but not Anthropic",
+      "url": "https://www.reuters.com/business/retail-consumer/pentagon-reaches-agreements-with-leading-ai-companies-2026-05-01",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T17:48:45+00:00",
+      "summary": "6 points, 1 comments",
+      "category": "product",
+      "score": 48,
+      "rank": 47,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Tell HN: Claude account suspension after flagging duplicate billing",
+      "url": "https://news.ycombinator.com/item?id=47976682",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T16:30:53+00:00",
+      "summary": "6 points, 0 comments",
+      "category": "product",
+      "score": 48,
+      "rank": 48,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Tell HN: Claude Opus 4.7 quota suddenly changed to 0 TPM in Bedrock",
+      "url": "https://news.ycombinator.com/item?id=47976391",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T16:06:40+00:00",
+      "summary": "12 points, 5 comments",
+      "category": "product",
+      "score": 48,
+      "rank": 49,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "A profile of OpenAI CFO Sarah Friar, who sources say helped keep OpenAI's Microsoft deal on track and has privately suggested waiting until 2027 for an IPO",
+      "url": "https://www.wsj.com/business/openai-sam-altman-ipo-sarah-friar-392c582b?st=qziTRw&reflink=desktopwebshare_permalink",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 46,
+      "rank": 50,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "f/prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T06:24:07Z",
+      "summary": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. Stars: 161377",
+      "category": "product",
+      "score": 46,
+      "rank": 51,
+      "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "Meta acquires Assured Robot Intelligence, a startup developing AI models for robots; Assured Robot Intelligence's team will join Meta Superintelligence Labs",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-01/meta-acquires-assured-robot-intelligence-to-help-build-humanoid-technology",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 46,
+      "rank": 52,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "AI actors and writers will be ineligible for Oscars",
+      "url": "https://www.reuters.com/lifestyle/ai-actors-writers-will-be-ineligible-oscars-2026-05-01",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T22:25:05+00:00",
+      "summary": "6 points, 3 comments Techmeme industry signal.",
+      "category": "product",
+      "score": 38,
+      "rank": 53,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News",
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "A Coding Deep Dive into Agentic UI, Generative UI, State Synchronization, and Interrupt-Driven Approval Flows",
+      "url": "https://www.marktechpost.com/2026/04/30/a-coding-deep-dive-into-agentic-ui-generative-ui-state-synchronization-and-interrupt-driven-approval-flows",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T05:06:51+00:00",
+      "summary": "In this tutorial, we build the entire Agentic UI stack from the ground up using plain Python, without relying on external frameworks to abstract away the core ideas. We implement the AG-UI event stream to make agent behavior observable in real time, and we bring in A2UI as a declarative layer that allows interfaces to […] The post A Coding Deep Dive into Agentic UI, Generative UI, State Synchronization, and Interrupt-Driven Approval Flows appeared first on MarkTechPost .",
+      "category": "general",
+      "score": 34,
+      "rank": 54,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "A Coding Guide on LLM Post Training with TRL from Supervised Fine Tuning to DPO and GRPO Reasoning",
+      "url": "https://www.marktechpost.com/2026/05/01/a-coding-guide-on-llm-post-training-with-trl-from-supervised-fine-tuning-to-dpo-and-grpo-reasoning",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T20:52:08+00:00",
+      "summary": "In this tutorial, we walk through a complete, hands-on journey of post-training large language models using the powerful TRL (Transformer Reinforcement Learning) library ecosystem. We start from a lightweight base model and progressively apply four key techniques: Supervised Fine-Tuning (SFT), Reward Modeling (RM), Direct Preference Optimization (DPO), and Group Relative Policy Optimization (GRPO). Also, we […] The post A Coding Guide on LLM Post Training with TRL from Supervised Fine Tuning to",
+      "category": "general",
+      "score": 34,
+      "rank": 55,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "A Coding Implementation of End-to-End Brain Decoding from MEG Signals Using NeuralSet and Deep Learning for Predicting Linguistic Features",
+      "url": "https://www.marktechpost.com/2026/05/01/a-coding-implementation-of-end-to-end-brain-decoding-from-meg-signals-using-neuralset-and-deep-learning-for-predicting-linguistic-features",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T23:09:48+00:00",
+      "summary": "In this tutorial, we explore how we can decode linguistic features directly from brain signals using a modern neuroAI pipeline. We work with MEG data and build an end-to-end system that transforms raw neural activity into meaningful predictions, in this case, estimating word length from brain responses. We set up the environment, load and process […] The post A Coding Implementation of End-to-End Brain Decoding from MEG Signals Using NeuralSet and Deep Learning for Predicting Linguistic Features",
+      "category": "general",
+      "score": 34,
+      "rank": 56,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "AWS Transform now automates BI migration to Amazon Quick in days",
+      "url": "https://aws.amazon.com/blogs/machine-learning/aws-transform-now-automates-bi-migration-to-amazon-quick-in-days",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T18:29:06+00:00",
+      "summary": "In this post, we walk through the full journey, from setting up your migration workspace in AWS Transform to subscribing to partner agents through AWS Marketplace to unlocking Amazon Quick capabilities that change how your organization consumes data.",
+      "category": "general",
+      "score": 34,
+      "rank": 57,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "ChatGPT Images 2.0 is a hit in India, but not a big winner elsewhere, yet",
+      "url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T02:00:00+00:00",
+      "summary": "Users in India are embracing ChatGPT Images 2.0 for creative, personal visuals — from avatars to cinematic portraits.",
+      "category": "general",
+      "score": 34,
+      "rank": 58,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Ghost: A Database for Our Times?",
+      "url": "https://towardsdatascience.com/ghost-a-database-for-our-times",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T13:30:00+00:00",
+      "summary": "The first database built for AI Agents The post Ghost: A Database for Our Times? appeared first on Towards Data Science .",
+      "category": "general",
+      "score": 34,
+      "rank": 59,
+      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "A 200-Person Chinese Team Just Embarrassed Every $500B AI Lab on Earth",
+      "url": "https://curiousmodels.substack.com/p/deepseek-v4",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T14:16:51+00:00",
+      "summary": "6 points, 3 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 60,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Advanced Quantization Algorithm for LLMs",
+      "url": "https://github.com/intel/auto-round",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T09:10:02+00:00",
+      "summary": "129 points, 16 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 61,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "AI uses less water than the public thinks",
+      "url": "https://californiawaterblog.com/2026/04/26/ai-water-use-distractions-and-lessons-for-california",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T17:18:58+00:00",
+      "summary": "380 points, 360 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 62,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Amazon Powers ICE. Its Workers Aren't Happy",
+      "url": "https://www.motherjones.com/politics/2026/05/amazon-powers-ice-its-workers-arent-happy",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T20:45:30+00:00",
+      "summary": "17 points, 1 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 63,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Ask HN: GitHub flagged my org two weeks ago. No reason given, no appeal response",
+      "url": "https://news.ycombinator.com/item?id=47976477",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T16:14:14+00:00",
+      "summary": "6 points, 0 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 64,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Ask HN: Who is hiring? (May 2026)",
+      "url": "https://news.ycombinator.com/item?id=47975571",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T15:00:07+00:00",
+      "summary": "278 points, 293 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 65,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Ask HN: Who wants to be hired? (May 2026)",
+      "url": "https://news.ycombinator.com/item?id=47975570",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T15:00:07+00:00",
+      "summary": "129 points, 292 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 66,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "bigscience/bloom",
+      "url": "https://huggingface.co/bigscience/bloom",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 5000 Downloads: 6620",
+      "category": "product",
+      "score": 30,
+      "rank": 67,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "black-forest-labs/FLUX.1-dev",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 12738 Downloads: 741117",
+      "category": "product",
+      "score": 30,
+      "rank": 68,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "black-forest-labs/FLUX.1-schnell",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 4836 Downloads: 724196",
+      "category": "product",
+      "score": 30,
+      "rank": 69,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T13:53:23Z",
+      "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. Stars: 111048",
+      "category": "product",
+      "score": 30,
+      "rank": 70,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "CompVis/stable-diffusion-v1-4",
+      "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 7004 Downloads: 620505",
+      "category": "product",
+      "score": 30,
+      "rank": 71,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "daytonaio/daytona",
+      "url": "https://github.com/daytonaio/daytona",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T10:51:52Z",
+      "summary": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code Stars: 72382",
+      "category": "product",
+      "score": 30,
+      "rank": 72,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "DeepSeek V4–almost on the frontier, a fraction of the price",
+      "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T16:52:43+00:00",
+      "summary": "237 points, 126 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 73,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 13317 Downloads: 4023498",
+      "category": "product",
+      "score": 30,
+      "rank": 74,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T06:46:58Z",
+      "summary": "🔥 The API to search, scrape, and interact with the web for AI Stars: 114068",
+      "category": "product",
+      "score": 30,
+      "rank": 75,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "Friday Studio AI runtime: Turn prompts, skills, & tools into reliable config",
+      "url": "https://github.com/friday-platform/friday-studio",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T22:37:42+00:00",
+      "summary": "8 points, 3 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 76,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "hexgrad/Kokoro-82M",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 6089 Downloads: 9603290",
+      "category": "product",
+      "score": 30,
+      "rank": 77,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "IBM Granite 4.1 family of models",
+      "url": "https://research.ibm.com/blog/granite-4-1-ai-foundation-models",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T18:41:18+00:00",
+      "summary": "30 points, 1 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 78,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Mayo Clinic AI helps specialists detect pancreatic cancer up to 3 years early",
+      "url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-ai-detects-pancreatic-cancer-up-to-3-years-before-diagnosis-in-landmark-validation-study",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T17:26:14+00:00",
+      "summary": "6 points, 1 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 79,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "meilisearch/meilisearch",
+      "url": "https://github.com/meilisearch/meilisearch",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T12:50:59Z",
+      "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. Stars: 57388",
+      "category": "product",
+      "score": 30,
+      "rank": 80,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "mistralai/Mistral-7B-v0.1",
+      "url": "https://huggingface.co/mistralai/Mistral-7B-v0.1",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 4081 Downloads: 1111044",
+      "category": "product",
+      "score": 30,
+      "rank": 81,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 4674 Downloads: 679884",
+      "category": "product",
+      "score": 30,
+      "rank": 82,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "Musk Warns of Killer AI, While He and Silicon Valley Cash in on AI That Kills",
+      "url": "https://theintercept.com/2026/05/01/elon-musk-openai-lawsuit-trial",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T18:09:03+00:00",
+      "summary": "6 points, 1 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 83,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T11:24:05Z",
+      "summary": "The fastest path to AI-powered full stack observability, even for lean teams. Stars: 78675",
+      "category": "product",
+      "score": 30,
+      "rank": 84,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T14:07:44Z",
+      "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞  Stars: 367415",
+      "category": "product",
+      "score": 30,
+      "rank": 85,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "QR code on front porch to see if delivery photos are being used to train AI",
+      "url": "https://infosec.exchange/@SecureOwl/116496633095492532",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T15:45:30+00:00",
+      "summary": "6 points, 0 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 86,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Senate Panel Backs Guard Act, AI Age Verification Bill",
+      "url": "https://reclaimthenet.org/senate-panel-backs-guard-act-ai-age-verification-bill",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T19:51:34+00:00",
+      "summary": "14 points, 1 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 87,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "sentence-transformers/all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 4742 Downloads: 231440352",
+      "category": "product",
+      "score": 30,
+      "rank": 88,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T08:09:44Z",
+      "summary": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. Stars: 183947",
+      "category": "product",
+      "score": 30,
+      "rank": 89,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "Spirit Airlines prepares to shut down as bailout talks stall",
+      "url": "https://www.wsj.com/business/airlines/spirit-airlines-prepares-to-shut-down-as-rescue-deal-falls-apart-5a2d5936",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T15:09:29+00:00",
+      "summary": "7 points, 0 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 90,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Spotify adds 'Verified' badges to distinguish human artists from AI",
+      "url": "https://www.bbc.com/news/articles/c5yerr4m1yno",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T16:42:41+00:00",
+      "summary": "248 points, 272 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 91,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "stabilityai/stable-diffusion-3-medium",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 4944 Downloads: 4065",
+      "category": "product",
+      "score": 30,
+      "rank": 92,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "stabilityai/stable-diffusion-xl-base-1.0",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 7680 Downloads: 2034986",
+      "category": "product",
+      "score": 30,
+      "rank": 93,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "source": "GitHub AI Repositories",
+      "published_at": "2026-05-02T08:41:31Z",
+      "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications. Stars: 101740",
+      "category": "product",
+      "score": 30,
+      "rank": 94,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "GitHub AI Repositories"
+      ]
+    },
+    {
+      "title": "Tangled – combat LLM spam by building a web of trust",
+      "url": "https://blog.tangled.org/vouching",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T17:07:17+00:00",
+      "summary": "9 points, 1 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 95,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Tongyi-MAI/Z-Image-Turbo",
+      "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
+      "source": "Hugging Face",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Likes: 4547 Downloads: 1318361",
+      "category": "product",
+      "score": 30,
+      "rank": 96,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "Top AI Companies Agree to Pentagon Deals for Classified Work",
+      "url": "https://www.wsj.com/tech/ai/top-ai-companies-agree-to-pentagon-deals-for-classified-work-9c621e78",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T13:17:47+00:00",
+      "summary": "6 points, 1 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 97,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Understand Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T17:27:03+00:00",
+      "summary": "139 points, 44 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 98,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "What Software Engineers Can Learn from the Aviation Industry",
+      "url": "https://mwalterskirchen.dev/blog/piloting-agentic-engineering",
+      "source": "Hacker News",
+      "published_at": "2026-05-01T23:27:26+00:00",
+      "summary": "6 points, 1 comments",
+      "category": "product",
+      "score": 30,
+      "rank": 99,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Hacker News"
+      ]
+    },
+    {
+      "title": "Did you know you can’t steal a charity? Don’t worry. Elon Musk will remind you.",
+      "url": "https://techcrunch.com/podcast/did-you-know-you-cant-steal-a-charity-dont-worry-elon-musk-will-remind-you",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T17:44:29+00:00",
+      "summary": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it’s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk’s argument against OpenAI? By converting the company to a for-profit model, Sam Altman betrayed the “nonprofit for the […]",
+      "category": "general",
+      "score": 28,
+      "rank": 100,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Experts say supply chain attacks compromised SAP and Intercom npm packages, plus the PyPI package Lightning, in a campaign that calls itself Mini Shai-Hulud",
+      "url": "https://www.theregister.com/2026/04/30/supply_chain_attacks_sap_npm_packages",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 28,
+      "rank": 101,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "Fun, which builds fiat and crypto payment rails for platforms like Polymarket and Aave, raised a $72M Series A in January, co-led by Multicoin and SignalFire",
+      "url": "https://fortune.com/2026/05/01/fun-series-a-fundraise-multicoin-capital-signalfire",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 28,
+      "rank": 102,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "How Shivon Zilis Operated as Elon Musk’s OpenAI Insider",
+      "url": "https://www.wired.com/story/model-behavior-why-everything-in-musk-v-altman-leads-back-to-shivon-zelis",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T00:51:18+00:00",
+      "summary": "Messages presented at trial reveal how Zilis, the mother of four of Musk's children, acted as an intermediary between him and OpenAI.",
+      "category": "general",
+      "score": 28,
+      "rank": 103,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Meta buys robotic startup to bolster its humanoid AI ambitions",
+      "url": "https://techcrunch.com/2026/05/01/meta-buys-robotic-startup-to-bolster-its-humanoid-ai-ambitions",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T22:13:27+00:00",
+      "summary": "Meta bought humanoid startup Assured Robot Intelligence to beef up its AI models for robots, the company said.",
+      "category": "general",
+      "score": 28,
+      "rank": 104,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Meta buys robotics startup to bolster its humanoid AI ambitions",
+      "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T22:13:27+00:00",
+      "summary": "Meta bought humanoid startup Assured Robot Intelligence to beef up its AI models for robots, the company said.",
+      "category": "general",
+      "score": 28,
+      "rank": 105,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Microsoft Research’s World-R1 Uses Flow-GRPO and 3D-Aware Rewards to Inject Geometric Consistency Into Wan 2.1 Without Architectural Changes",
+      "url": "https://www.marktechpost.com/2026/04/30/microsoft-researchs-world-r1-uses-flow-grpo-and-3d-aware-rewards-to-inject-geometric-consistency-into-wan-2-1-without-architectural-changes",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T00:40:01+00:00",
+      "summary": "Microsoft Research's World-R1 Uses Reinforcement Learning to Force 3D Consistency Into Text-to-Video Models The post Microsoft Research’s World-R1 Uses Flow-GRPO and 3D-Aware Rewards to Inject Geometric Consistency Into Wan 2.1 Without Architectural Changes appeared first on MarkTechPost .",
+      "category": "general",
+      "score": 28,
+      "rank": 106,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Musk v. Altman is just getting started",
+      "url": "https://techcrunch.com/video/musk-v-altman-is-just-getting-started",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T14:00:00+00:00",
+      "summary": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it’s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk’s argument against OpenAI? By converting the company to a for-profit model, Sam Altman betrayed the “nonprofit for the […]",
+      "category": "general",
+      "score": 28,
+      "rank": 107,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T16:02:36+00:00",
+      "summary": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
+      "category": "general",
+      "score": 28,
+      "rank": 108,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Pushing back on AI job loss fears, AWS CEO Matt Garman says Amazon plans to hire 11,000 software engineering interns in 2026, a figure in line with recent years",
+      "url": "https://www.businessinsider.com/aws-ceo-amazon-ai-coding-jobs-interns-hiring-2026-5",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 28,
+      "rank": 109,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "Ripple Labs investor and exec Chris Larsen plans to spend $3.5M to help Alex Bores, a NY congressional candidate at the center of a proxy war over AI regulation",
+      "url": "https://www.nytimes.com/2026/05/01/us/politics/alex-bores-chris-larsen-open-ai-jack-schlossberg.html?unlocked_article_code=1.fFA.tylP.2lUNvD1vU0qd&smid=url-share",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 28,
+      "rank": 110,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "Servers operated by Ubuntu and its parent company Canonical have been down for more than a day, following a “sustained, cross-border attack”",
+      "url": "https://arstechnica.com/security/2026/05/ubuntu-infrastructure-has-been-down-for-more-than-a-day",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 28,
+      "rank": 111,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "Sources: Cerebras is seeking to raise as much as $4B in its IPO and is targeting a valuation of about $40B",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-01/ai-chipmaker-cerebras-is-said-to-target-up-to-4-billion-in-ipo",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 28,
+      "rank": 112,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "Sources: Coatue formed Next Frontier in 2025 to buy land for data centers; Next Frontier has a JV with neocloud Fluidstack that has raised $5.7B via junk bonds",
+      "url": "https://www.wsj.com/tech/ai/ai-investor-coatue-joins-data-center-frenzy-with-new-venture-to-buy-land-9f4c374f",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 28,
+      "rank": 113,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "Sources: Peter Thiel's Founders Fund raised $6B for a fund to invest in later-stage companies, marking its largest haul ever; $4.5B comes from limited partners",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-01/thiel-s-founders-fund-raises-6-billion-in-its-largest-ever-haul",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 28,
+      "rank": 114,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "The gender gap in AI use may be a matter of visibility more than usage, as data suggests women face more judgment for using AI and are less likely to admit it",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-30/ai-gender-gap-reflects-women-s-worries-about-being-seen-as-less-valuable",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 28,
+      "rank": 115,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "The US Navy awards Domino Data Lab a contract worth up to $100M for AI software that teaches underwater drones to identify new mines in the Strait of Hormuz",
+      "url": "https://www.reuters.com/world/middle-east/us-navy-turns-ai-firm-domino-options-counter-iranian-mines-2026-05-01",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 28,
+      "rank": 116,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "“Podslop” is flooding listening platforms like Spotify; Podcast Index: of ~11K new podcast feeds in a recent 9-day span, ~39% were likely for AI content shows",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-04-30/-podslop-proliferation-is-challenging-the-audio-industry?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3NzY0NTcyNiwiZXhwIjoxNzc4MjUwNTI2LCJhcnRpY2xlSWQiOiJURUJLSkRLR0NUSFQwMCIsImJjb25uZWN0SWQiOiI3MzA4MjI1Mzg2OEE0REE4QTZDQTcyN0I3REUyMzFEOCJ9.yTh4KS4EcTA1x0ewXWRNsz1l5w5ga7e1tiDW9gUTAQ4&leadSource=uverify+wall",
+      "source": "Techmeme River",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Techmeme industry signal.",
+      "category": "big_tech",
+      "score": 28,
+      "rank": 117,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Techmeme River"
+      ]
+    },
+    {
+      "title": "Open Weight Text-to-Speach with Voxtral TTS",
+      "url": "https://www.kdnuggets.com/open-weight-text-to-speach-with-voxtral-tts",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T12:00:09+00:00",
+      "summary": "Learn how the Voxtral TTS model works, what makes its voice cloning and low‑latency performance special, and how to start generating speech with just a few lines of Python code.",
+      "category": "general",
+      "score": 26,
+      "rank": 118,
+      "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Churn Without Fragmentation: How a Party-Label Bug Reversed My Headline Finding",
+      "url": "https://towardsdatascience.com/fractured-local-britain-voter-volatility-in-english-councils-2018-2022",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T15:00:00+00:00",
+      "summary": "A data quality case study from English local elections on categorical normalisation, metric validation, and why raw labels should never define analytical groups. The post Churn Without Fragmentation: How a Party-Label Bug Reversed My Headline Finding appeared first on Towards Data Science .",
+      "category": "general",
+      "score": 10,
+      "rank": 119,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "How to Get Hired in the AI Era",
+      "url": "https://towardsdatascience.com/how-to-get-hired-in-the-ai-era",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T16:30:00+00:00",
+      "summary": "What people actually look for when hiring juniors that stand out. The post How to Get Hired in the AI Era appeared first on Towards Data Science .",
+      "category": "general",
+      "score": 10,
+      "rank": 120,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Moonshot AI Open-Sources FlashKDA: CUTLASS Kernels for Kimi Delta Attention with Variable-Length Batching and H20 Benchmarks",
+      "url": "https://www.marktechpost.com/2026/04/30/moonshot-ai-open-sources-flashkda-cutlass-kernels-for-kimi-delta-attention-with-variable-length-batching-and-h20-benchmarks",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T01:16:07+00:00",
+      "summary": "Moonshot AI releases FlashKDA, a high-performance implementation of Kimi Delta Attention that plugs directly into the flash-linear-attention ecosystem — and benchmarks show it's meaningfully faster. The post Moonshot AI Open-Sources FlashKDA: CUTLASS Kernels for Kimi Delta Attention with Variable-Length Batching and H20 Benchmarks appeared first on MarkTechPost .",
+      "category": "general",
+      "score": 10,
+      "rank": 121,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Qwen AI Releases Qwen-Scope: An Open-Source Sparse AutoEncoders (SAE) Suite That Turns LLM Internal Features into Practical Development Tools",
+      "url": "https://www.marktechpost.com/2026/05/01/qwen-ai-releases-qwen-scope-an-open-source-sparse-autoencoders-sae-suite-that-turns-llm-internal-features-into-practical-development-tools",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T08:25:21+00:00",
+      "summary": "Qwen Team Introduces Qwen-Scope: An Open-Source Sparse Autoencoder Suite That Turns LLM Internals into Practical Development Tools The post Qwen AI Releases Qwen-Scope: An Open-Source Sparse AutoEncoders (SAE) Suite That Turns LLM Internal Features into Practical Development Tools appeared first on MarkTechPost .",
+      "category": "general",
+      "score": 10,
+      "rank": 122,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Replit’s Amjad Masad on the Cursor deal, fighting Apple, and why he’d rather not sell",
+      "url": "https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T23:06:50+00:00",
+      "summary": "At TechCrunch's sold-out StrictlyVC event in San Francisco on Thursday night, we covered a lot of ground in a short time, beginning with the question everyone in the industry is asking right now: in a world where rival Cursor is reportedly in talks to be acquired by SpaceX for $60 billion, is Replit also bound to sell?",
+      "category": "general",
+      "score": 10,
+      "rank": 123,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "The “Robust” Data Scientist: Winning with Messy Data and Pingouin",
+      "url": "https://www.kdnuggets.com/the-robust-data-scientist-winning-with-messy-data-and-pingouin",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T14:00:28+00:00",
+      "summary": "This article uncovers the craftsmanship of using robust statistics in data science processes: illustrating what to do when data fail tests due to not meeting standard assumptions.",
+      "category": "general",
+      "score": 10,
+      "rank": 124,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Planet AI"
+      ]
+    },
+    {
+      "title": "Why Powerful Machine Learning Is Deceptively Easy",
+      "url": "https://towardsdatascience.com/why-powerful-ml-is-deceptively-easy",
+      "source": "Planet AI",
+      "published_at": "2026-05-01T12:00:00+00:00",
+      "summary": "Or why what appears powerful can be methodologically fragile The post Why Powerful Machine Learning Is Deceptively Easy appeared first on Towards Data Science .",
+      "category": "general",
+      "score": 10,
+      "rank": 125,
+      "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
+      "sources": [
+        "Planet AI"
+      ]
+    }
+  ],
+  "analysis": null
+}

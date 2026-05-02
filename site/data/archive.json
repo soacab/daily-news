@@ -1,0 +1,12 @@
+{
+  "reports": [
+    {
+      "date": "2026-05-02",
+      "title": "AI 产品机会日报",
+      "summary": "今天的 AI 产品机会主要来自产品发布、社区痛点和巨头平台动作的交叉信号。",
+      "path": "reports/2026-05-02.md",
+      "json": "data/reports/2026-05-02.json",
+      "low_signal": false
+    }
+  ]
+}
