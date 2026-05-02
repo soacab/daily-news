@@ -79,6 +79,62 @@ class RssSource:
         return SourceResult(self.name, ok=True, candidates=candidates)
 
 
+class NewsPageSource:
+    def __init__(self, name: str, url: str, category: str = "big_tech", limit: int = 12) -> None:
+        self.name = name
+        self.url = url
+        self.category = category
+        self.limit = limit
+
+    def fetch(self, window_start: dt.datetime, window_end: dt.datetime) -> SourceResult:
+        text = fetch_text(self.url)
+        candidates = parse_news_page_links(
+            text,
+            base_url=self.url,
+            source_name=self.name,
+            category=self.category,
+            published_at=window_end.isoformat(),
+            limit=self.limit,
+        )
+        return SourceResult(self.name, ok=True, candidates=candidates)
+
+
+def parse_news_page_links(
+    text: str,
+    base_url: str,
+    source_name: str,
+    category: str,
+    published_at: str,
+    limit: int,
+) -> list[Candidate]:
+    candidates: list[Candidate] = []
+    seen: set[str] = set()
+    for match in re.finditer(r"<a[^>]+href=\"([^\"]+)\"[^>]*>(.*?)</a>", text, flags=re.I | re.S):
+        href = html.unescape(match.group(1))
+        title = strip_html(match.group(2))
+        if not title or len(title) < 8:
+            continue
+        if "/news/" not in href and "/blog/" not in href:
+            continue
+        url = urllib.parse.urljoin(base_url, href)
+        if url in seen:
+            continue
+        seen.add(url)
+        candidates.append(
+            Candidate(
+                title=title,
+                url=url,
+                source=source_name,
+                published_at=published_at,
+                summary=f"Official update from {source_name}.",
+                category=category,
+            )
+        )
+        if len(candidates) >= limit:
+            break
+    return candidates
+
+
 class HackerNewsSource:
     name = "Hacker News"
 
@@ -206,7 +262,7 @@ def in_window(value: str, window_start: dt.datetime, window_end: dt.datetime) ->
 def default_sources() -> list[object]:
     return [
         RssSource("OpenAI News", "https://openai.com/news/rss.xml", "big_tech"),
-        RssSource("Anthropic Newsroom", "https://www.anthropic.com/news/rss.xml", "big_tech"),
+        NewsPageSource("Anthropic Newsroom", "https://www.anthropic.com/news", "big_tech"),
         RssSource("Google DeepMind Blog", "https://deepmind.google/blog/rss.xml", "big_tech"),
         RssSource("NVIDIA Blog", "https://blogs.nvidia.com/feed/", "big_tech"),
         RssSource("Product Hunt", "https://www.producthunt.com/feed", "product"),

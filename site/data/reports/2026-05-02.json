@@ -8,7 +8,7 @@
       "summary": "6 points, 0 comments",
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "score": 72,
-      "rank": 1,
+      "rank": 3,
       "published_at": "2026-05-01T21:13:08+00:00",
       "sources": [
         {
@@ -23,7 +23,7 @@
       "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal. Stars: 102936",
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "score": 72,
-      "rank": 2,
+      "rank": 4,
       "published_at": "2026-05-02T02:10:41Z",
       "sources": [
         {
@@ -38,7 +38,7 @@
       "summary": "66 points, 36 comments",
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "score": 72,
-      "rank": 3,
+      "rank": 5,
       "published_at": "2026-05-01T08:14:07+00:00",
       "sources": [
         {
@@ -53,7 +53,7 @@
       "summary": "41 points, 40 comments",
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "score": 72,
-      "rank": 4,
+      "rank": 6,
       "published_at": "2026-05-01T19:56:18+00:00",
       "sources": [
         {
@@ -65,10 +65,10 @@
     },
     {
       "title": "thedotmack/claude-mem",
-      "summary": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. Stars: 70927",
+      "summary": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. Stars: 70929",
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "score": 72,
-      "rank": 5,
+      "rank": 7,
       "published_at": "2026-05-02T14:06:01Z",
       "sources": [
         {
@@ -81,11 +81,41 @@
   ],
   "big_tech": [
     {
+      "title": "Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the work that matters most.",
+      "summary": "Official update from Anthropic Newsroom.",
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "score": 80,
+      "rank": 1,
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "sources": [
+        {
+          "name": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news/claude-opus-4-7"
+        }
+      ],
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    {
+      "title": "Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
+      "summary": "Official update from Anthropic Newsroom.",
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "score": 80,
+      "rank": 2,
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "sources": [
+        {
+          "name": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+        }
+      ],
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+    },
+    {
       "title": "Security Affairs",
       "summary": "Techmeme industry signal.",
       "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
       "score": 68,
-      "rank": 8,
+      "rank": 10,
       "published_at": "2026-05-02T00:00:00+00:00",
       "sources": [
         {
@@ -96,64 +126,34 @@
       "url": "https://securityaffairs.com"
     },
     {
-      "title": "Avoca, whose AI agents let physical services businesses handle inbound calls and dispatch, raised $125M+ across seed, Series A, and Series B at a $1B valuation",
-      "summary": "Techmeme industry signal.",
-      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
-      "score": 52,
-      "rank": 30,
+      "title": "Announcements Feb 4, 2026 Claude is a space to think We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust.",
+      "summary": "Official update from Anthropic Newsroom.",
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "score": 56,
+      "rank": 14,
       "published_at": "2026-05-02T00:00:00+00:00",
       "sources": [
         {
-          "name": "Techmeme River",
-          "url": "https://fortune.com/2026/04/27/avoca-ai-agents-missed-calls-hvac-plumbing-roofing-kleiner-perkins-chen-shrivastava-braswell"
+          "name": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news/claude-is-a-space-to-think"
         }
       ],
-      "url": "https://fortune.com/2026/04/27/avoca-ai-agents-missed-calls-hvac-plumbing-roofing-kleiner-perkins-chen-shrivastava-braswell"
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think"
     },
     {
-      "title": "Some retail traders are training AI agents to buy and sell assets on their behalf, as exchanges like Polymarket and Bybit roll out agent-friendly interfaces",
-      "summary": "Techmeme industry signal.",
-      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
-      "score": 52,
-      "rank": 32,
+      "title": "Apr 14, 2026 Announcements Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+      "summary": "Official update from Anthropic Newsroom.",
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "score": 56,
+      "rank": 15,
       "published_at": "2026-05-02T00:00:00+00:00",
       "sources": [
         {
-          "name": "Techmeme River",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-01/ai-tools-for-stock-trading-put-up-mixed-results"
+          "name": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news/narasimhan-board"
         }
       ],
-      "url": "https://www.bloomberg.com/news/articles/2026-05-01/ai-tools-for-stock-trading-put-up-mixed-results"
-    },
-    {
-      "title": "The US, UK, Australia, Canada, and New Zealand publish guidance on orgs' use of agentic AI systems, saying many give AI more access than can be safely monitored",
-      "summary": "Techmeme industry signal.",
-      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
-      "score": 52,
-      "rank": 33,
-      "published_at": "2026-05-02T00:00:00+00:00",
-      "sources": [
-        {
-          "name": "Techmeme River",
-          "url": "https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents"
-        }
-      ],
-      "url": "https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents"
-    },
-    {
-      "title": "xAI launches Grok 4.3, featuring “always-on reasoning”, 1M token context window, and low API pricing, and releases a voice cloning suite called Custom Voices",
-      "summary": "Techmeme industry signal.",
-      "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
-      "score": 52,
-      "rank": 34,
-      "published_at": "2026-05-02T00:00:00+00:00",
-      "sources": [
-        {
-          "name": "Techmeme River",
-          "url": "https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite"
-        }
-      ],
-      "url": "https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite"
+      "url": "https://www.anthropic.com/news/narasimhan-board"
     }
   ],
   "pain_points": [
@@ -162,7 +162,7 @@
       "summary": "Production-ready platform for agentic workflow development. Stars: 139866",
       "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
       "score": 70,
-      "rank": 6,
+      "rank": 8,
       "published_at": "2026-05-02T09:34:01Z",
       "sources": [
         {
@@ -177,7 +177,7 @@
       "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. Stars: 186458",
       "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
       "score": 70,
-      "rank": 7,
+      "rank": 9,
       "published_at": "2026-05-02T13:32:03Z",
       "sources": [
         {
@@ -192,7 +192,7 @@
       "summary": "Techmeme industry signal.",
       "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
       "score": 68,
-      "rank": 8,
+      "rank": 10,
       "published_at": "2026-05-02T00:00:00+00:00",
       "sources": [
         {
@@ -212,9 +212,9 @@
     },
     {
       "name": "Anthropic Newsroom",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
+      "ok": true,
+      "count": 12,
+      "error": ""
     },
     {
       "name": "Google DeepMind Blog",
@@ -268,6 +268,34 @@
   "low_signal": false,
   "all_candidates": [
     {
+      "title": "Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the work that matters most.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "source": "Anthropic Newsroom",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Official update from Anthropic Newsroom.",
+      "category": "big_tech",
+      "score": 80,
+      "rank": 1,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Anthropic Newsroom"
+      ]
+    },
+    {
+      "title": "Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "source": "Anthropic Newsroom",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Official update from Anthropic Newsroom.",
+      "category": "big_tech",
+      "score": 80,
+      "rank": 2,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Anthropic Newsroom"
+      ]
+    },
+    {
       "title": "Claude Code still doesn't support AGENTS.md",
       "url": "https://github.com/anthropics/claude-code/issues/6235",
       "source": "Hacker News",
@@ -275,7 +303,7 @@
       "summary": "6 points, 0 comments",
       "category": "product",
       "score": 72,
-      "rank": 1,
+      "rank": 3,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hacker News"
@@ -289,7 +317,7 @@
       "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal. Stars: 102936",
       "category": "product",
       "score": 72,
-      "rank": 2,
+      "rank": 4,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "GitHub AI Repositories"
@@ -303,7 +331,7 @@
       "summary": "66 points, 36 comments",
       "category": "product",
       "score": 72,
-      "rank": 3,
+      "rank": 5,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hacker News"
@@ -317,7 +345,7 @@
       "summary": "41 points, 40 comments",
       "category": "product",
       "score": 72,
-      "rank": 4,
+      "rank": 6,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hacker News"
@@ -328,10 +356,10 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T14:06:01Z",
-      "summary": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. Stars: 70927",
+      "summary": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. Stars: 70929",
       "category": "product",
       "score": 72,
-      "rank": 5,
+      "rank": 7,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "GitHub AI Repositories"
@@ -345,7 +373,7 @@
       "summary": "Production-ready platform for agentic workflow development. Stars: 139866",
       "category": "product",
       "score": 70,
-      "rank": 6,
+      "rank": 8,
       "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
       "sources": [
         "GitHub AI Repositories"
@@ -359,7 +387,7 @@
       "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. Stars: 186458",
       "category": "product",
       "score": 70,
-      "rank": 7,
+      "rank": 9,
       "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
       "sources": [
         "GitHub AI Repositories"
@@ -373,7 +401,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 68,
-      "rank": 8,
+      "rank": 10,
       "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
       "sources": [
         "Techmeme River"
@@ -387,7 +415,7 @@
       "summary": "386 points, 456 comments",
       "category": "product",
       "score": 64,
-      "rank": 9,
+      "rank": 11,
       "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
       "sources": [
         "Hacker News"
@@ -401,7 +429,7 @@
       "summary": "Build American AI, a nonprofit linked to a super PAC bankrolled by executives at OpenAI and Andreessen Horowitz, is funding a campaign to spread pro-AI messaging and stoke fears about China. 12 points, 1 comments Techmeme industry signal.",
       "category": "product",
       "score": 60,
-      "rank": 10,
+      "rank": 12,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hacker News",
@@ -417,10 +445,150 @@
       "summary": "29 points, 9 comments",
       "category": "product",
       "score": 58,
-      "rank": 11,
+      "rank": 13,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hacker News"
+      ]
+    },
+    {
+      "title": "Announcements Feb 4, 2026 Claude is a space to think We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust.",
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "source": "Anthropic Newsroom",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Official update from Anthropic Newsroom.",
+      "category": "big_tech",
+      "score": 56,
+      "rank": 14,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Anthropic Newsroom"
+      ]
+    },
+    {
+      "title": "Apr 14, 2026 Announcements Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+      "url": "https://www.anthropic.com/news/narasimhan-board",
+      "source": "Anthropic Newsroom",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Official update from Anthropic Newsroom.",
+      "category": "big_tech",
+      "score": 56,
+      "rank": 15,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Anthropic Newsroom"
+      ]
+    },
+    {
+      "title": "Apr 20, 2026 Announcements Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+      "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+      "source": "Anthropic Newsroom",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Official update from Anthropic Newsroom.",
+      "category": "big_tech",
+      "score": 56,
+      "rank": 16,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Anthropic Newsroom"
+      ]
+    },
+    {
+      "title": "Apr 24, 2026 Announcements An update on our election safeguards",
+      "url": "https://www.anthropic.com/news/election-safeguards-update",
+      "source": "Anthropic Newsroom",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Official update from Anthropic Newsroom.",
+      "category": "big_tech",
+      "score": 56,
+      "rank": 17,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Anthropic Newsroom"
+      ]
+    },
+    {
+      "title": "Apr 24, 2026 Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+      "url": "https://www.anthropic.com/news/anthropic-nec",
+      "source": "Anthropic Newsroom",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Official update from Anthropic Newsroom.",
+      "category": "big_tech",
+      "score": 56,
+      "rank": 18,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Anthropic Newsroom"
+      ]
+    },
+    {
+      "title": "Apr 27, 2026 Announcements Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
+      "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
+      "source": "Anthropic Newsroom",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Official update from Anthropic Newsroom.",
+      "category": "big_tech",
+      "score": 56,
+      "rank": 19,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Anthropic Newsroom"
+      ]
+    },
+    {
+      "title": "Apr 28, 2026 Announcements Claude for Creative Work",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "source": "Anthropic Newsroom",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Official update from Anthropic Newsroom.",
+      "category": "big_tech",
+      "score": 56,
+      "rank": 20,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Anthropic Newsroom"
+      ]
+    },
+    {
+      "title": "Apr 6, 2026 Announcements Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "source": "Anthropic Newsroom",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Official update from Anthropic Newsroom.",
+      "category": "big_tech",
+      "score": 56,
+      "rank": 21,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Anthropic Newsroom"
+      ]
+    },
+    {
+      "title": "Mar 31, 2026 Announcements Australian government and Anthropic sign MOU for AI safety and research",
+      "url": "https://www.anthropic.com/news/australia-MOU",
+      "source": "Anthropic Newsroom",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Official update from Anthropic Newsroom.",
+      "category": "big_tech",
+      "score": 56,
+      "rank": 22,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Anthropic Newsroom"
+      ]
+    },
+    {
+      "title": "Responsible Scaling Policy",
+      "url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+      "source": "Anthropic Newsroom",
+      "published_at": "2026-05-02T00:00:00+00:00",
+      "summary": "Official update from Anthropic Newsroom.",
+      "category": "big_tech",
+      "score": 56,
+      "rank": 23,
+      "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
+      "sources": [
+        "Anthropic Newsroom"
       ]
     },
     {
@@ -431,7 +599,7 @@
       "summary": "14 points, 12 comments",
       "category": "product",
       "score": 54,
-      "rank": 12,
+      "rank": 24,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Hacker News"
@@ -445,7 +613,7 @@
       "summary": "14 points, 0 comments",
       "category": "product",
       "score": 54,
-      "rank": 13,
+      "rank": 25,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Hacker News"
@@ -459,7 +627,7 @@
       "summary": "Build an entire business by texting Discussion | Link",
       "category": "product",
       "score": 54,
-      "rank": 14,
+      "rank": 26,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Product Hunt"
@@ -470,10 +638,10 @@
       "url": "https://github.com/bytedance/deer-flow",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T14:08:11Z",
-      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. Stars: 64497",
+      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. Stars: 64498",
       "category": "product",
       "score": 54,
-      "rank": 15,
+      "rank": 27,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "GitHub AI Repositories"
@@ -487,7 +655,7 @@
       "summary": "6 points, 0 comments",
       "category": "product",
       "score": 54,
-      "rank": 16,
+      "rank": 28,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Hacker News"
@@ -501,7 +669,7 @@
       "summary": "omo; the best agent harness - previously oh-my-opencode Stars: 55447",
       "category": "product",
       "score": 54,
-      "rank": 17,
+      "rank": 29,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "GitHub AI Repositories"
@@ -515,7 +683,7 @@
       "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface Stars: 53222",
       "category": "product",
       "score": 54,
-      "rank": 18,
+      "rank": 30,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "GitHub AI Repositories"
@@ -529,7 +697,7 @@
       "summary": "The agent engineering platform Stars: 135629",
       "category": "product",
       "score": 54,
-      "rank": 19,
+      "rank": 31,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "GitHub AI Repositories"
@@ -540,10 +708,10 @@
       "url": "https://github.com/lobehub/lobehub",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T14:07:22Z",
-      "summary": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction. Stars: 75946",
+      "summary": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction. Stars: 75947",
       "category": "product",
       "score": 54,
-      "rank": 20,
+      "rank": 32,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "GitHub AI Repositories"
@@ -554,10 +722,10 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T10:38:03Z",
-      "summary": "The agent that grows with you Stars: 129175",
+      "summary": "The agent that grows with you Stars: 129180",
       "category": "product",
       "score": 54,
-      "rank": 21,
+      "rank": 33,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "GitHub AI Repositories"
@@ -571,7 +739,7 @@
       "summary": "Financial data platform for analysts, quants and AI agents. Stars: 66873",
       "category": "product",
       "score": 54,
-      "rank": 22,
+      "rank": 34,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "GitHub AI Repositories"
@@ -585,7 +753,7 @@
       "summary": "One keystroke blurs everything behind your active window Discussion | Link",
       "category": "product",
       "score": 54,
-      "rank": 23,
+      "rank": 35,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Product Hunt"
@@ -599,7 +767,7 @@
       "summary": "87 points, 86 comments",
       "category": "product",
       "score": 54,
-      "rank": 24,
+      "rank": 36,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Hacker News"
@@ -613,7 +781,7 @@
       "summary": "53 points, 9 comments",
       "category": "product",
       "score": 54,
-      "rank": 25,
+      "rank": 37,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Hacker News"
@@ -627,7 +795,7 @@
       "summary": "14 points, 2 comments",
       "category": "product",
       "score": 54,
-      "rank": 26,
+      "rank": 38,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Hacker News"
@@ -641,7 +809,7 @@
       "summary": "102 points, 31 comments",
       "category": "product",
       "score": 54,
-      "rank": 27,
+      "rank": 39,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Hacker News"
@@ -655,7 +823,7 @@
       "summary": "64 points, 73 comments",
       "category": "product",
       "score": 54,
-      "rank": 28,
+      "rank": 40,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Hacker News"
@@ -669,7 +837,7 @@
       "summary": "9 points, 2 comments",
       "category": "product",
       "score": 54,
-      "rank": 29,
+      "rank": 41,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Hacker News"
@@ -683,7 +851,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 52,
-      "rank": 30,
+      "rank": 42,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Techmeme River"
@@ -697,7 +865,7 @@
       "summary": "Meta Introduces Autodata: An Agentic Framework That Turns AI Models into Autonomous Data Scientists for High-Quality Training Data Creation The post Meta Introduces Autodata: An Agentic Framework That Turns AI Models into Autonomous Data Scientists for High-Quality Training Data Creation appeared first on MarkTechPost .",
       "category": "general",
       "score": 52,
-      "rank": 31,
+      "rank": 43,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Planet AI"
@@ -711,7 +879,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 52,
-      "rank": 32,
+      "rank": 44,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Techmeme River"
@@ -725,7 +893,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 52,
-      "rank": 33,
+      "rank": 45,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Techmeme River"
@@ -739,7 +907,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 52,
-      "rank": 34,
+      "rank": 46,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Techmeme River"
@@ -753,7 +921,7 @@
       "summary": "139 points, 128 comments",
       "category": "product",
       "score": 48,
-      "rank": 35,
+      "rank": 47,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hacker News"
@@ -767,7 +935,7 @@
       "summary": "372 points, 313 comments",
       "category": "product",
       "score": 48,
-      "rank": 36,
+      "rank": 48,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hacker News"
@@ -781,7 +949,7 @@
       "summary": "11 points, 0 comments",
       "category": "product",
       "score": 48,
-      "rank": 37,
+      "rank": 49,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hacker News"
@@ -795,7 +963,7 @@
       "summary": "Likes: 4481 Downloads: 310",
       "category": "product",
       "score": 48,
-      "rank": 38,
+      "rank": 50,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hugging Face"
@@ -809,7 +977,7 @@
       "summary": "Likes: 4747 Downloads: 415889",
       "category": "product",
       "score": 48,
-      "rank": 39,
+      "rank": 51,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hugging Face"
@@ -823,7 +991,7 @@
       "summary": "Likes: 5779 Downloads: 9668434",
       "category": "product",
       "score": 48,
-      "rank": 40,
+      "rank": 52,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hugging Face"
@@ -837,7 +1005,7 @@
       "summary": "Likes: 6529 Downloads: 3458214",
       "category": "product",
       "score": 48,
-      "rank": 41,
+      "rank": 53,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hugging Face"
@@ -851,7 +1019,7 @@
       "summary": "Likes: 4500 Downloads: 1629384",
       "category": "product",
       "score": 48,
-      "rank": 42,
+      "rank": 54,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hugging Face"
@@ -865,7 +1033,7 @@
       "summary": "10 points, 0 comments",
       "category": "product",
       "score": 48,
-      "rank": 43,
+      "rank": 55,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hacker News"
@@ -879,7 +1047,7 @@
       "summary": "Likes: 4753 Downloads: 4147394",
       "category": "product",
       "score": 48,
-      "rank": 44,
+      "rank": 56,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hugging Face"
@@ -893,7 +1061,7 @@
       "summary": "Likes: 4579 Downloads: 6942836",
       "category": "product",
       "score": 48,
-      "rank": 45,
+      "rank": 57,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hugging Face"
@@ -907,7 +1075,7 @@
       "summary": "Likes: 5649 Downloads: 4955365",
       "category": "product",
       "score": 48,
-      "rank": 46,
+      "rank": 58,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hugging Face"
@@ -921,7 +1089,7 @@
       "summary": "6 points, 1 comments",
       "category": "product",
       "score": 48,
-      "rank": 47,
+      "rank": 59,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hacker News"
@@ -935,7 +1103,7 @@
       "summary": "6 points, 0 comments",
       "category": "product",
       "score": 48,
-      "rank": 48,
+      "rank": 60,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hacker News"
@@ -949,7 +1117,7 @@
       "summary": "12 points, 5 comments",
       "category": "product",
       "score": 48,
-      "rank": 49,
+      "rank": 61,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Hacker News"
@@ -963,7 +1131,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 46,
-      "rank": 50,
+      "rank": 62,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Techmeme River"
@@ -977,7 +1145,7 @@
       "summary": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. Stars: 161377",
       "category": "product",
       "score": 46,
-      "rank": 51,
+      "rank": 63,
       "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
       "sources": [
         "GitHub AI Repositories"
@@ -991,7 +1159,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 46,
-      "rank": 52,
+      "rank": 64,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Techmeme River"
@@ -1005,7 +1173,7 @@
       "summary": "6 points, 3 comments Techmeme industry signal.",
       "category": "product",
       "score": 38,
-      "rank": 53,
+      "rank": 65,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News",
@@ -1020,7 +1188,7 @@
       "summary": "In this tutorial, we build the entire Agentic UI stack from the ground up using plain Python, without relying on external frameworks to abstract away the core ideas. We implement the AG-UI event stream to make agent behavior observable in real time, and we bring in A2UI as a declarative layer that allows interfaces to […] The post A Coding Deep Dive into Agentic UI, Generative UI, State Synchronization, and Interrupt-Driven Approval Flows appeared first on MarkTechPost .",
       "category": "general",
       "score": 34,
-      "rank": 54,
+      "rank": 66,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Planet AI"
@@ -1034,7 +1202,7 @@
       "summary": "In this tutorial, we walk through a complete, hands-on journey of post-training large language models using the powerful TRL (Transformer Reinforcement Learning) library ecosystem. We start from a lightweight base model and progressively apply four key techniques: Supervised Fine-Tuning (SFT), Reward Modeling (RM), Direct Preference Optimization (DPO), and Group Relative Policy Optimization (GRPO). Also, we […] The post A Coding Guide on LLM Post Training with TRL from Supervised Fine Tuning to",
       "category": "general",
       "score": 34,
-      "rank": 55,
+      "rank": 67,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Planet AI"
@@ -1048,7 +1216,7 @@
       "summary": "In this tutorial, we explore how we can decode linguistic features directly from brain signals using a modern neuroAI pipeline. We work with MEG data and build an end-to-end system that transforms raw neural activity into meaningful predictions, in this case, estimating word length from brain responses. We set up the environment, load and process […] The post A Coding Implementation of End-to-End Brain Decoding from MEG Signals Using NeuralSet and Deep Learning for Predicting Linguistic Features",
       "category": "general",
       "score": 34,
-      "rank": 56,
+      "rank": 68,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Planet AI"
@@ -1062,7 +1230,7 @@
       "summary": "In this post, we walk through the full journey, from setting up your migration workspace in AWS Transform to subscribing to partner agents through AWS Marketplace to unlocking Amazon Quick capabilities that change how your organization consumes data.",
       "category": "general",
       "score": 34,
-      "rank": 57,
+      "rank": 69,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Planet AI"
@@ -1076,7 +1244,7 @@
       "summary": "Users in India are embracing ChatGPT Images 2.0 for creative, personal visuals — from avatars to cinematic portraits.",
       "category": "general",
       "score": 34,
-      "rank": 58,
+      "rank": 70,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Planet AI"
@@ -1090,7 +1258,7 @@
       "summary": "The first database built for AI Agents The post Ghost: A Database for Our Times? appeared first on Towards Data Science .",
       "category": "general",
       "score": 34,
-      "rank": 59,
+      "rank": 71,
       "reason": "包含新产品、新工作流或开发者需求信号，适合跟进验证。",
       "sources": [
         "Planet AI"
@@ -1104,7 +1272,7 @@
       "summary": "6 points, 3 comments",
       "category": "product",
       "score": 30,
-      "rank": 60,
+      "rank": 72,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1118,7 +1286,7 @@
       "summary": "129 points, 16 comments",
       "category": "product",
       "score": 30,
-      "rank": 61,
+      "rank": 73,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1132,7 +1300,7 @@
       "summary": "380 points, 360 comments",
       "category": "product",
       "score": 30,
-      "rank": 62,
+      "rank": 74,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1146,7 +1314,7 @@
       "summary": "17 points, 1 comments",
       "category": "product",
       "score": 30,
-      "rank": 63,
+      "rank": 75,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1160,7 +1328,7 @@
       "summary": "6 points, 0 comments",
       "category": "product",
       "score": 30,
-      "rank": 64,
+      "rank": 76,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1174,7 +1342,7 @@
       "summary": "278 points, 293 comments",
       "category": "product",
       "score": 30,
-      "rank": 65,
+      "rank": 77,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1188,7 +1356,7 @@
       "summary": "129 points, 292 comments",
       "category": "product",
       "score": 30,
-      "rank": 66,
+      "rank": 78,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1202,7 +1370,7 @@
       "summary": "Likes: 5000 Downloads: 6620",
       "category": "product",
       "score": 30,
-      "rank": 67,
+      "rank": 79,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hugging Face"
@@ -1216,7 +1384,7 @@
       "summary": "Likes: 12738 Downloads: 741117",
       "category": "product",
       "score": 30,
-      "rank": 68,
+      "rank": 80,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hugging Face"
@@ -1230,7 +1398,7 @@
       "summary": "Likes: 4836 Downloads: 724196",
       "category": "product",
       "score": 30,
-      "rank": 69,
+      "rank": 81,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hugging Face"
@@ -1241,10 +1409,10 @@
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T13:53:23Z",
-      "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. Stars: 111048",
+      "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. Stars: 111049",
       "category": "product",
       "score": 30,
-      "rank": 70,
+      "rank": 82,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "GitHub AI Repositories"
@@ -1258,7 +1426,7 @@
       "summary": "Likes: 7004 Downloads: 620505",
       "category": "product",
       "score": 30,
-      "rank": 71,
+      "rank": 83,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hugging Face"
@@ -1272,7 +1440,7 @@
       "summary": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code Stars: 72382",
       "category": "product",
       "score": 30,
-      "rank": 72,
+      "rank": 84,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "GitHub AI Repositories"
@@ -1286,7 +1454,7 @@
       "summary": "237 points, 126 comments",
       "category": "product",
       "score": 30,
-      "rank": 73,
+      "rank": 85,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1300,7 +1468,7 @@
       "summary": "Likes: 13317 Downloads: 4023498",
       "category": "product",
       "score": 30,
-      "rank": 74,
+      "rank": 86,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hugging Face"
@@ -1311,10 +1479,10 @@
       "url": "https://github.com/firecrawl/firecrawl",
       "source": "GitHub AI Repositories",
       "published_at": "2026-05-02T06:46:58Z",
-      "summary": "🔥 The API to search, scrape, and interact with the web for AI Stars: 114068",
+      "summary": "🔥 The API to search, scrape, and interact with the web for AI Stars: 114069",
       "category": "product",
       "score": 30,
-      "rank": 75,
+      "rank": 87,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "GitHub AI Repositories"
@@ -1328,7 +1496,7 @@
       "summary": "8 points, 3 comments",
       "category": "product",
       "score": 30,
-      "rank": 76,
+      "rank": 88,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1342,7 +1510,7 @@
       "summary": "Likes: 6089 Downloads: 9603290",
       "category": "product",
       "score": 30,
-      "rank": 77,
+      "rank": 89,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hugging Face"
@@ -1356,7 +1524,7 @@
       "summary": "30 points, 1 comments",
       "category": "product",
       "score": 30,
-      "rank": 78,
+      "rank": 90,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1370,7 +1538,7 @@
       "summary": "6 points, 1 comments",
       "category": "product",
       "score": 30,
-      "rank": 79,
+      "rank": 91,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1384,7 +1552,7 @@
       "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. Stars: 57388",
       "category": "product",
       "score": 30,
-      "rank": 80,
+      "rank": 92,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "GitHub AI Repositories"
@@ -1398,7 +1566,7 @@
       "summary": "Likes: 4081 Downloads: 1111044",
       "category": "product",
       "score": 30,
-      "rank": 81,
+      "rank": 93,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hugging Face"
@@ -1412,7 +1580,7 @@
       "summary": "Likes: 4674 Downloads: 679884",
       "category": "product",
       "score": 30,
-      "rank": 82,
+      "rank": 94,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hugging Face"
@@ -1426,7 +1594,7 @@
       "summary": "6 points, 1 comments",
       "category": "product",
       "score": 30,
-      "rank": 83,
+      "rank": 95,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1440,7 +1608,7 @@
       "summary": "The fastest path to AI-powered full stack observability, even for lean teams. Stars: 78675",
       "category": "product",
       "score": 30,
-      "rank": 84,
+      "rank": 96,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "GitHub AI Repositories"
@@ -1450,11 +1618,11 @@
       "title": "openclaw/openclaw",
       "url": "https://github.com/openclaw/openclaw",
       "source": "GitHub AI Repositories",
-      "published_at": "2026-05-02T14:07:44Z",
-      "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞  Stars: 367415",
+      "published_at": "2026-05-02T14:09:06Z",
+      "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞  Stars: 367416",
       "category": "product",
       "score": 30,
-      "rank": 85,
+      "rank": 97,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "GitHub AI Repositories"
@@ -1468,7 +1636,7 @@
       "summary": "6 points, 0 comments",
       "category": "product",
       "score": 30,
-      "rank": 86,
+      "rank": 98,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1482,7 +1650,7 @@
       "summary": "14 points, 1 comments",
       "category": "product",
       "score": 30,
-      "rank": 87,
+      "rank": 99,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1496,7 +1664,7 @@
       "summary": "Likes: 4742 Downloads: 231440352",
       "category": "product",
       "score": 30,
-      "rank": 88,
+      "rank": 100,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hugging Face"
@@ -1510,7 +1678,7 @@
       "summary": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. Stars: 183947",
       "category": "product",
       "score": 30,
-      "rank": 89,
+      "rank": 101,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "GitHub AI Repositories"
@@ -1524,7 +1692,7 @@
       "summary": "7 points, 0 comments",
       "category": "product",
       "score": 30,
-      "rank": 90,
+      "rank": 102,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1538,7 +1706,7 @@
       "summary": "248 points, 272 comments",
       "category": "product",
       "score": 30,
-      "rank": 91,
+      "rank": 103,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1552,7 +1720,7 @@
       "summary": "Likes: 4944 Downloads: 4065",
       "category": "product",
       "score": 30,
-      "rank": 92,
+      "rank": 104,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hugging Face"
@@ -1566,7 +1734,7 @@
       "summary": "Likes: 7680 Downloads: 2034986",
       "category": "product",
       "score": 30,
-      "rank": 93,
+      "rank": 105,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hugging Face"
@@ -1580,7 +1748,7 @@
       "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications. Stars: 101740",
       "category": "product",
       "score": 30,
-      "rank": 94,
+      "rank": 106,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "GitHub AI Repositories"
@@ -1594,7 +1762,7 @@
       "summary": "9 points, 1 comments",
       "category": "product",
       "score": 30,
-      "rank": 95,
+      "rank": 107,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1608,7 +1776,7 @@
       "summary": "Likes: 4547 Downloads: 1318361",
       "category": "product",
       "score": 30,
-      "rank": 96,
+      "rank": 108,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hugging Face"
@@ -1622,7 +1790,7 @@
       "summary": "6 points, 1 comments",
       "category": "product",
       "score": 30,
-      "rank": 97,
+      "rank": 109,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1636,7 +1804,7 @@
       "summary": "139 points, 44 comments",
       "category": "product",
       "score": 30,
-      "rank": 98,
+      "rank": 110,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1650,7 +1818,7 @@
       "summary": "6 points, 1 comments",
       "category": "product",
       "score": 30,
-      "rank": 99,
+      "rank": 111,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Hacker News"
@@ -1664,7 +1832,7 @@
       "summary": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it’s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk’s argument against OpenAI? By converting the company to a for-profit model, Sam Altman betrayed the “nonprofit for the […]",
       "category": "general",
       "score": 28,
-      "rank": 100,
+      "rank": 112,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Planet AI"
@@ -1678,7 +1846,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 28,
-      "rank": 101,
+      "rank": 113,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Techmeme River"
@@ -1692,7 +1860,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 28,
-      "rank": 102,
+      "rank": 114,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Techmeme River"
@@ -1706,7 +1874,7 @@
       "summary": "Messages presented at trial reveal how Zilis, the mother of four of Musk's children, acted as an intermediary between him and OpenAI.",
       "category": "general",
       "score": 28,
-      "rank": 103,
+      "rank": 115,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Planet AI"
@@ -1720,7 +1888,7 @@
       "summary": "Meta bought humanoid startup Assured Robot Intelligence to beef up its AI models for robots, the company said.",
       "category": "general",
       "score": 28,
-      "rank": 104,
+      "rank": 116,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Planet AI"
@@ -1734,7 +1902,7 @@
       "summary": "Meta bought humanoid startup Assured Robot Intelligence to beef up its AI models for robots, the company said.",
       "category": "general",
       "score": 28,
-      "rank": 105,
+      "rank": 117,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Planet AI"
@@ -1748,7 +1916,7 @@
       "summary": "Microsoft Research's World-R1 Uses Reinforcement Learning to Force 3D Consistency Into Text-to-Video Models The post Microsoft Research’s World-R1 Uses Flow-GRPO and 3D-Aware Rewards to Inject Geometric Consistency Into Wan 2.1 Without Architectural Changes appeared first on MarkTechPost .",
       "category": "general",
       "score": 28,
-      "rank": 106,
+      "rank": 118,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Planet AI"
@@ -1762,7 +1930,7 @@
       "summary": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it’s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk’s argument against OpenAI? By converting the company to a for-profit model, Sam Altman betrayed the “nonprofit for the […]",
       "category": "general",
       "score": 28,
-      "rank": 107,
+      "rank": 119,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Planet AI"
@@ -1776,7 +1944,7 @@
       "summary": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
       "category": "general",
       "score": 28,
-      "rank": 108,
+      "rank": 120,
       "reason": "来自主要 AI 公司或平台动作，可能改变产品分发、能力边界或成本结构。",
       "sources": [
         "Planet AI"
@@ -1790,7 +1958,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 28,
-      "rank": 109,
+      "rank": 121,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Techmeme River"
@@ -1804,7 +1972,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 28,
-      "rank": 110,
+      "rank": 122,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Techmeme River"
@@ -1818,7 +1986,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 28,
-      "rank": 111,
+      "rank": 123,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Techmeme River"
@@ -1832,7 +2000,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 28,
-      "rank": 112,
+      "rank": 124,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Techmeme River"
@@ -1846,7 +2014,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 28,
-      "rank": 113,
+      "rank": 125,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Techmeme River"
@@ -1860,7 +2028,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 28,
-      "rank": 114,
+      "rank": 126,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Techmeme River"
@@ -1874,7 +2042,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 28,
-      "rank": 115,
+      "rank": 127,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Techmeme River"
@@ -1888,7 +2056,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 28,
-      "rank": 116,
+      "rank": 128,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Techmeme River"
@@ -1902,7 +2070,7 @@
       "summary": "Techmeme industry signal.",
       "category": "big_tech",
       "score": 28,
-      "rank": 117,
+      "rank": 129,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Techmeme River"
@@ -1916,7 +2084,7 @@
       "summary": "Learn how the Voxtral TTS model works, what makes its voice cloning and low‑latency performance special, and how to start generating speech with just a few lines of Python code.",
       "category": "general",
       "score": 26,
-      "rank": 118,
+      "rank": 130,
       "reason": "出现明确用户痛点或采用阻力，值得转化为产品机会。",
       "sources": [
         "Planet AI"
@@ -1930,7 +2098,7 @@
       "summary": "A data quality case study from English local elections on categorical normalisation, metric validation, and why raw labels should never define analytical groups. The post Churn Without Fragmentation: How a Party-Label Bug Reversed My Headline Finding appeared first on Towards Data Science .",
       "category": "general",
       "score": 10,
-      "rank": 119,
+      "rank": 131,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Planet AI"
@@ -1944,7 +2112,7 @@
       "summary": "What people actually look for when hiring juniors that stand out. The post How to Get Hired in the AI Era appeared first on Towards Data Science .",
       "category": "general",
       "score": 10,
-      "rank": 120,
+      "rank": 132,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Planet AI"
@@ -1958,7 +2126,7 @@
       "summary": "Moonshot AI releases FlashKDA, a high-performance implementation of Kimi Delta Attention that plugs directly into the flash-linear-attention ecosystem — and benchmarks show it's meaningfully faster. The post Moonshot AI Open-Sources FlashKDA: CUTLASS Kernels for Kimi Delta Attention with Variable-Length Batching and H20 Benchmarks appeared first on MarkTechPost .",
       "category": "general",
       "score": 10,
-      "rank": 121,
+      "rank": 133,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Planet AI"
@@ -1972,7 +2140,7 @@
       "summary": "Qwen Team Introduces Qwen-Scope: An Open-Source Sparse Autoencoder Suite That Turns LLM Internals into Practical Development Tools The post Qwen AI Releases Qwen-Scope: An Open-Source Sparse AutoEncoders (SAE) Suite That Turns LLM Internal Features into Practical Development Tools appeared first on MarkTechPost .",
       "category": "general",
       "score": 10,
-      "rank": 122,
+      "rank": 134,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Planet AI"
@@ -1986,7 +2154,7 @@
       "summary": "At TechCrunch's sold-out StrictlyVC event in San Francisco on Thursday night, we covered a lot of ground in a short time, beginning with the question everyone in the industry is asking right now: in a world where rival Cursor is reportedly in talks to be acquired by SpaceX for $60 billion, is Replit also bound to sell?",
       "category": "general",
       "score": 10,
-      "rank": 123,
+      "rank": 135,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Planet AI"
@@ -2000,7 +2168,7 @@
       "summary": "This article uncovers the craftsmanship of using robust statistics in data science processes: illustrating what to do when data fail tests due to not meeting standard assumptions.",
       "category": "general",
       "score": 10,
-      "rank": 124,
+      "rank": 136,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Planet AI"
@@ -2014,7 +2182,7 @@
       "summary": "Or why what appears powerful can be methodologically fragile The post Why Powerful Machine Learning Is Deceptively Easy appeared first on Towards Data Science .",
       "category": "general",
       "score": 10,
-      "rank": 125,
+      "rank": 137,
       "reason": "信息源可信且与 AI 产品生态相关，保留为趋势观察信号。",
       "sources": [
         "Planet AI"
