@@ -26,7 +26,7 @@ class SiteAndPublishTests(unittest.TestCase):
                                 "summary": "团队需要知道代理做了什么。",
                                 "reason": "治理痛点明确。",
                                 "score": 91,
-                                "sources": [{"name": "Hacker News", "url": "https://news.ycombinator.com/"}],
+                                "sources": [{"name": "Hacker News", "url": "https://news.ycombinator.com/", "published_date": "2026-05-02"}],
                             }
                         ],
                         "big_tech": [],
@@ -47,6 +47,7 @@ class SiteAndPublishTests(unittest.TestCase):
 
         self.assertIn("<title>daily-news · AI 产品机会日报</title>", html)
         self.assertIn("AI 产品机会日报", html)
+        self.assertIn("2026-05-02", html)
         self.assertIn("靛蓝瓷", html)
         self.assertNotIn("[必填]", html)
 

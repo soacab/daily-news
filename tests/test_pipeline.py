@@ -134,9 +134,11 @@ class PipelineTests(unittest.TestCase):
             archive = json.loads((root / "site/data/archive.json").read_text(encoding="utf-8"))
 
         self.assertIn("# AI 产品机会日报 · 2026-05-02", markdown)
+        self.assertIn("Hacker News · 2026-05-02", markdown)
         self.assertTrue(site_markdown_exists)
         self.assertEqual(latest["date"], "2026-05-02")
         self.assertEqual(latest["opportunities"][0]["title"], candidate.title)
+        self.assertEqual(latest["opportunities"][0]["sources"][0]["published_date"], "2026-05-02")
         self.assertEqual(archive["reports"][0]["path"], "reports/2026-05-02.md")
 
 

@@ -10,6 +10,7 @@ from daily_news.codex_analysis import (
     apply_codex_analysis,
     render_codex_brief,
     validate_analysis,
+    validate_analysis_sources,
     write_codex_brief,
 )
 from daily_news.models import Candidate, SourceResult
@@ -85,6 +86,23 @@ class CodexAnalysisTests(unittest.TestCase):
         self.assertIn("代理成本监控", markdown)
         self.assertEqual(latest["opportunities"][0]["title"], "代理成本监控")
         self.assertEqual(latest["opportunities"][0]["sources"][0]["url"], "https://example.com/a")
+
+    def test_validate_analysis_sources_rejects_urls_not_in_candidates(self):
+        candidate = Candidate(
+            title="Known candidate",
+            url="https://example.com/known",
+            source="Source",
+            published_at="2026-05-02T00:00:00+00:00",
+        )
+        analysis = {
+            "summary": "Valid summary.",
+            "opportunities": [{"title": "Known", "summary": "Known.", "reason": "Known.", "source_urls": ["https://example.com/known"]}],
+            "big_tech": [{"title": "Unknown", "summary": "Unknown.", "reason": "Unknown.", "source_urls": ["https://example.com/old"]}],
+            "pain_points": [{"title": "Known pain", "summary": "Known.", "reason": "Known.", "source_urls": ["https://example.com/known"]}],
+        }
+
+        with self.assertRaises(ValueError):
+            validate_analysis_sources(analysis, [candidate])
 
     def test_build_report_payload_prefers_codex_analysis_sections(self):
         report_date = dt.date(2026, 5, 2)

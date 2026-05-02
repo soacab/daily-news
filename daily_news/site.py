@@ -286,7 +286,11 @@ def render_rows(items: list[dict]) -> str:
 def render_sources(item: dict) -> str:
     links = []
     for source in item.get("sources", [])[:3]:
-        links.append(f"<a href=\"{escape(source.get('url', '#'))}\">{escape(source.get('name', 'Source'))}</a>")
+        published = source.get("published_date") or str(source.get("published_at", ""))[:10]
+        label = source.get("name", "Source")
+        if published:
+            label = f"{label} · {published}"
+        links.append(f"<a href=\"{escape(source.get('url', '#'))}\">{escape(label)}</a>")
     return " ".join(links)
 
 

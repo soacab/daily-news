@@ -157,7 +157,7 @@
       <div>
         <div class="section-label">Today Brief</div>
         <h1>AI 产品机会日报</h1>
-        <p class="subtitle">今天的 AI 产品机会明显从“模型能力展示”转向“代理进入真实工作流后的管理问题”：预算消耗、行为审计、上下文复用、交付物质量和团队协作层都开始成为显性需求。巨头侧，Anthropic 继续用 Opus 4.7、Claude Design 和算力合作扩大高价值工作负载边界，Google Gemini CLI 抢占开发者终端入口，Meta 的 agentic data framework 则显示“自动化专业流程”正在扩散到训练数据和数据科学。值得跟进的不是再做一个聊天框，而是围绕 agent 的成本、权限、上下文、交付和治理做基础设施。</p>
+        <p class="subtitle">今天的 AI 产品机会集中在“agent 进入真实工作流后的管理层”：成本归因、行为审计、团队记忆、终端协作和工作流编排都比单纯模型能力更值得跟进。候选信号里，Gemini CLI、Claude Code 相关插件、Dify/n8n/LangChain、Loopsy/Omar 等工具说明开发者正在把 agent 当成日常生产力入口；同时，预算消耗、数据库误删、agent 安全指导等事件提醒我们，真正的商业机会在治理、可观测性和可交付性。</p>
       </div>
       <div>
         <div class="stat-band">
@@ -188,36 +188,36 @@
   <span class="score">Score 64</span>
   <h3>Agent 成本治理与预算归因</h3>
   <p>Claude Code 预算消耗的高讨论度说明，团队已经开始担心 AI 代理从效率工具变成不可控成本中心。</p>
-  <p>当代理进入高频开发和运营流程，企业需要的不只是总账单，而是按项目、人员、任务、模型和产出拆解成本。能把 agent 使用量、业务收益和异常消耗连起来的产品，会成为企业规模化采用前的刚需。</p>
-  <div class="source-list"><a href="https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months">Hacker News</a></div>
+  <p>当 agent 进入高频研发流程，管理者需要知道钱花在哪个项目、哪个人、哪个任务和哪个模型上。能把 agent 使用量、产出、异常消耗和预算策略连起来的产品，会成为企业规模化采用前的刚需。</p>
+  <div class="source-list"><a href="https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months">Hacker News · 2026-05-01</a></div>
 </article>
 <article class="signal-card">
   <span class="score">Score 72</span>
   <h3>Agent 行为审计与团队记忆层</h3>
-  <p>Claude Code 的 AGENTS.md 支持诉求和 claude-mem 这类插件，说明开发者需要记录代理读了什么、做了什么、为什么这样做，并让这些上下文能被团队复用。</p>
-  <p>代理越自主，越需要可追溯的操作日志、上下文压缩、会话记忆和团队规范注入。这个需求介于 IDE 插件、知识库和合规审计之间，适合做成跨工具的 agent memory / audit layer。</p>
-  <div class="source-list"><a href="https://github.com/anthropics/claude-code/issues/6235">Hacker News</a> <a href="https://github.com/thedotmack/claude-mem">GitHub AI Repositories</a></div>
+  <p>Claude Code 的 AGENTS.md 支持诉求和 claude-mem 插件，说明开发者需要记录 agent 读过什么、做过什么、为什么这样做，并把上下文带到未来会话。</p>
+  <p>代理越自主，越需要操作日志、上下文压缩、会话记忆和团队规范注入。这个需求介于 IDE 插件、知识库和合规审计之间，适合做成跨工具的 agent memory / audit layer。</p>
+  <div class="source-list"><a href="https://github.com/anthropics/claude-code/issues/6235">Hacker News · 2026-05-01</a> <a href="https://github.com/thedotmack/claude-mem">GitHub AI Repositories · 2026-05-02</a></div>
 </article>
 <article class="signal-card">
-  <span class="score">Score 80</span>
-  <h3>AI 视觉交付工作台，而不是单点生成器</h3>
-  <p>Claude Design 把设计、原型、幻灯片和 one-pager 放进 Claude 协作流，表明模型厂商正在直接争夺“最终交付物”入口。</p>
-  <p>用户真正要买的是能拿去汇报、评审、发客户的成品。围绕品牌规范、版本对比、素材复用、审批批注和多格式导出做产品，会比单次图片/幻灯片生成更接近付费价值。</p>
-  <div class="source-list"><a href="https://www.anthropic.com/news/claude-design-anthropic-labs">Anthropic Newsroom</a></div>
+  <span class="score">Score 72</span>
+  <h3>CLI Agent 的团队协作层</h3>
+  <p>Gemini CLI、Loopsy、Omar 等候选同时出现，说明终端正在成为 AI agent 的重要入口。</p>
+  <p>CLI agent 适合个人高手，但团队还缺共享配置、任务队列、策略模板、审计面板和安全边界。谁能把终端 agent 变成团队可管理的工作系统，谁就能抓住开发者组织里的高频入口。</p>
+  <div class="source-list"><a href="https://github.com/google-gemini/gemini-cli">GitHub AI Repositories · 2026-05-02</a> <a href="https://github.com/leox255/loopsy">Hacker News · 2026-05-01</a> <a href="https://omar.tech">Hacker News · 2026-05-01</a></div>
 </article>
 <article class="signal-card">
   <span class="score">Score 70</span>
   <h3>开源 AI 工作流平台的垂直封装</h3>
   <p>Dify、n8n、LangChain 等项目持续高热，说明用户需要把模型、工具、数据库和业务系统编排成可运行的流程。</p>
   <p>通用平台很强，但企业落地常常卡在场景模板、权限、监控、回滚和集成细节。围绕客服、销售、数据分析、研发协作等垂直流程做轻量封装，可能比再做一个通用 agent builder 更容易产生收入。</p>
-  <div class="source-list"><a href="https://github.com/langgenius/dify">GitHub AI Repositories</a> <a href="https://github.com/n8n-io/n8n">GitHub AI Repositories</a> <a href="https://github.com/langchain-ai/langchain">GitHub AI Repositories</a></div>
+  <div class="source-list"><a href="https://github.com/langgenius/dify">GitHub AI Repositories · 2026-05-02</a> <a href="https://github.com/n8n-io/n8n">GitHub AI Repositories · 2026-05-02</a> <a href="https://github.com/langchain-ai/langchain">GitHub AI Repositories · 2026-05-02</a></div>
 </article>
 <article class="signal-card">
-  <span class="score">Score 72</span>
-  <h3>CLI Agent 的团队协作层</h3>
-  <p>Gemini CLI、Claude Code 相关插件以及终端 agent 通信工具同时出现，说明终端正在成为 AI agent 的重要入口。</p>
-  <p>CLI agent 适合个人高手，但团队还缺共享配置、策略模板、任务队列、审计面板和安全边界。谁能把终端 agent 变成团队可管理的工作系统，谁就能抓住开发者组织里的高频入口。</p>
-  <div class="source-list"><a href="https://github.com/google-gemini/gemini-cli">GitHub AI Repositories</a> <a href="https://github.com/leox255/loopsy">Hacker News</a> <a href="https://omar.tech">Hacker News</a></div>
+  <span class="score">Score 54</span>
+  <h3>Agent 安全测试与事故复盘工具</h3>
+  <p>Cursor AI agent 误删数据库、AI agent 发现 GKE WireGuard bug 等信号，一正一反说明 agent 已经能影响真实系统。</p>
+  <p>一旦 agent 能改代码、操作环境或触达生产数据，团队就需要沙箱、权限分级、回放、审批、事故复盘和自动化安全测试。安全治理会从“上线前检查”变成 agent 工作流的常驻层。</p>
+  <div class="source-list"><a href="https://abcnews.com/GMA/News/rogue-ai-agent-haywire-tech-company-ceo-bullish/story?id=132473181">Hacker News · 2026-05-01</a> <a href="https://lovable.dev/blog/hunting-networking-bugs-in-kubernetes">Hacker News · 2026-05-01</a></div>
 </article></div>
       </section>
 
@@ -226,23 +226,23 @@
         <h2>巨头动态改变能力边界</h2>
         <div class="wide-list"><div class="list-row">
   <span>01</span>
-  <div><strong>Anthropic 用 Claude Opus 4.7 加码复杂工作流</strong><p>Anthropic 官方称 Opus 4.7 在编码、代理、视觉和多步骤任务上有更强表现和一致性。</p><div class="source-list"><a href="https://www.anthropic.com/news/claude-opus-4-7">Anthropic Newsroom</a></div></div>
+  <div><strong>Google Gemini CLI 抢占开发者终端入口</strong><p>Gemini CLI 以开源 agent 的方式把 Gemini 能力带进终端，是今天最明确的平台入口信号。</p><div class="source-list"><a href="https://github.com/google-gemini/gemini-cli">GitHub AI Repositories · 2026-05-02</a></div></div>
 </div>
 <div class="list-row">
   <span>02</span>
-  <div><strong>Claude Design 让模型厂商进入创意交付链</strong><p>Anthropic Labs 推出 Claude Design，让用户协作生成设计、原型、幻灯片、一页纸等视觉材料。</p><div class="source-list"><a href="https://www.anthropic.com/news/claude-design-anthropic-labs">Anthropic Newsroom</a></div></div>
+  <div><strong>Meta Autodata 把 agentic workflow 推向训练数据生产</strong><p>Meta Autodata 候选显示，agentic framework 正在进入高质量训练数据创建流程。</p><div class="source-list"><a href="https://www.marktechpost.com/2026/05/01/meta-introduces-autodata-an-agentic-framework-that-turns-ai-models-into-autonomous-data-scientists-for-high-quality-training-data-creation">Planet AI · 2026-05-01</a></div></div>
 </div>
 <div class="list-row">
   <span>03</span>
-  <div><strong>Google Gemini CLI 抢占开发者终端入口</strong><p>Gemini CLI 以开源 agent 的方式把 Gemini 能力带进终端。</p><div class="source-list"><a href="https://github.com/google-gemini/gemini-cli">GitHub AI Repositories</a></div></div>
+  <div><strong>AI agent 安全指导进入政策层</strong><p>Five Eyes 国家发布 agentic AI 系统使用指导，强调许多组织给 AI 的访问权限超过可安全监控范围。</p><div class="source-list"><a href="https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents">Techmeme River · 2026-05-02</a></div></div>
 </div>
 <div class="list-row">
   <span>04</span>
-  <div><strong>Anthropic 与 Amazon 扩大多 gigawatt 级算力合作</strong><p>Anthropic 与 Amazon 的合作扩展到 up to 5 gigawatts 的新计算资源。</p><div class="source-list"><a href="https://www.anthropic.com/news/anthropic-amazon-compute">Anthropic Newsroom</a></div></div>
+  <div><strong>xAI 用长上下文和低价 API 加码平台竞争</strong><p>xAI 发布 Grok 4.3，主打 always-on reasoning、1M token context、低 API 价格，并推出 Custom Voices 语音克隆套件。</p><div class="source-list"><a href="https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite">Techmeme River · 2026-05-02</a></div></div>
 </div>
 <div class="list-row">
   <span>05</span>
-  <div><strong>Meta Autodata 把 agentic workflow 推向训练数据生产</strong><p>Meta 发布 Autodata 这类 agentic framework，让 AI 模型自动化高质量训练数据创建流程。</p><div class="source-list"><a href="https://www.marktechpost.com/2026/05/01/meta-introduces-autodata-an-agentic-framework-that-turns-ai-models-into-autonomous-data-scientists-for-high-quality-training-data-creation">Planet AI</a></div></div>
+  <div><strong>AI 交易 agent 推动平台接口变化</strong><p>部分交易者开始训练 AI agents 代为买卖资产，Polymarket、Bybit 等平台推出 agent-friendly interfaces。</p><div class="source-list"><a href="https://www.bloomberg.com/news/articles/2026-05-01/ai-tools-for-stock-trading-put-up-mixed-results">Techmeme River · 2026-05-01</a></div></div>
 </div></div>
       </section>
 
@@ -251,15 +251,15 @@
         <blockquote class="pull-quote">好的 AI 产品机会，往往先表现为重复出现的抱怨、绕路和预算摩擦。</blockquote>
         <div class="wide-list"><div class="list-row">
   <span>01</span>
-  <div><strong>AI 代理花钱太快，但价值归因太慢</strong><p>高频使用 Claude Code 这类工具后，预算消耗会很快出现，但团队未必能解释这些成本对应了哪些任务和成果。</p><div class="source-list"><a href="https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months">Hacker News</a></div></div>
+  <div><strong>AI 代理花钱太快，但价值归因太慢</strong><p>高频使用 Claude Code 这类工具后，预算消耗会很快出现，但团队未必能解释这些成本对应了哪些任务和成果。</p><div class="source-list"><a href="https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months">Hacker News · 2026-05-01</a></div></div>
 </div>
 <div class="list-row">
   <span>02</span>
-  <div><strong>Agent 做过什么仍然不够透明</strong><p>围绕 Claude Code 规范文件、记忆插件和会话记录的需求，反映出用户担心 agent 的上下文和行动不可追踪。</p><div class="source-list"><a href="https://github.com/anthropics/claude-code/issues/6235">Hacker News</a> <a href="https://github.com/thedotmack/claude-mem">GitHub AI Repositories</a></div></div>
+  <div><strong>Agent 做过什么仍然不够透明</strong><p>围绕 Claude Code 规范文件、记忆插件和会话记录的需求，反映出用户担心 agent 的上下文和行动不可追踪。</p><div class="source-list"><a href="https://github.com/anthropics/claude-code/issues/6235">Hacker News · 2026-05-01</a> <a href="https://github.com/thedotmack/claude-mem">GitHub AI Repositories · 2026-05-02</a></div></div>
 </div>
 <div class="list-row">
   <span>03</span>
-  <div><strong>生成内容离可交付成品还有一段距离</strong><p>Claude Design 的方向说明，用户不满足于“生成一些素材”，而是希望 AI 帮自己完成可展示、可修改、可交付的作品。</p><div class="source-list"><a href="https://www.anthropic.com/news/claude-design-anthropic-labs">Anthropic Newsroom</a></div></div>
+  <div><strong>Agent 权限过大，事故后果变重</strong><p>Cursor agent 误删数据库和 agentic AI 安全指导都指向同一个问题：AI 被接入真实系统后，权限、监控和接管机制跟不上。</p><div class="source-list"><a href="https://abcnews.com/GMA/News/rogue-ai-agent-haywire-tech-company-ceo-bullish/story?id=132473181">Hacker News · 2026-05-01</a> <a href="https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents">Techmeme River · 2026-05-02</a></div></div>
 </div></div>
       </section>
 

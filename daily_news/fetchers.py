@@ -14,6 +14,21 @@ from .models import Candidate, SourceResult
 
 
 USER_AGENT = "daily-news-local/0.1 (+https://github.com/)"
+MONTHS = {
+    "jan": 1,
+    "feb": 2,
+    "mar": 3,
+    "apr": 4,
+    "may": 5,
+    "jun": 6,
+    "jul": 7,
+    "aug": 8,
+    "sep": 9,
+    "sept": 9,
+    "oct": 10,
+    "nov": 11,
+    "dec": 12,
+}
 
 
 def fetch_text(url: str, timeout: int = 20) -> str:
@@ -93,8 +108,9 @@ class NewsPageSource:
             base_url=self.url,
             source_name=self.name,
             category=self.category,
-            published_at=window_end.isoformat(),
             limit=self.limit,
+            window_start_iso=window_start.isoformat(),
+            window_end_iso=window_end.isoformat(),
         )
         return SourceResult(self.name, ok=True, candidates=candidates)
 
@@ -104,14 +120,24 @@ def parse_news_page_links(
     base_url: str,
     source_name: str,
     category: str,
-    published_at: str,
     limit: int,
+    window_start_iso: str | None = None,
+    window_end_iso: str | None = None,
 ) -> list[Candidate]:
     candidates: list[Candidate] = []
     seen: set[str] = set()
+    window_start = parse_iso_datetime(window_start_iso) if window_start_iso else None
+    window_end = parse_iso_datetime(window_end_iso) if window_end_iso else None
     for match in re.finditer(r"<a[^>]+href=\"([^\"]+)\"[^>]*>(.*?)</a>", text, flags=re.I | re.S):
         href = html.unescape(match.group(1))
-        title = strip_html(match.group(2))
+        raw_title = strip_html(match.group(2))
+        published = parse_news_page_date(raw_title)
+        if window_start and window_end:
+            if published is None:
+                continue
+            if not (window_start <= published <= window_end):
+                continue
+        title = clean_news_page_title(raw_title)
         if not title or len(title) < 8:
             continue
         if "/news/" not in href and "/blog/" not in href:
@@ -125,7 +151,7 @@ def parse_news_page_links(
                 title=title,
                 url=url,
                 source=source_name,
-                published_at=published_at,
+                published_at=(published or dt.datetime.now(dt.timezone.utc)).isoformat(),
                 summary=f"Official update from {source_name}.",
                 category=category,
             )
@@ -133,6 +159,42 @@ def parse_news_page_links(
         if len(candidates) >= limit:
             break
     return candidates
+
+
+def parse_iso_datetime(value: str | None) -> dt.datetime | None:
+    if not value:
+        return None
+    return dt.datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(dt.timezone.utc)
+
+
+def parse_news_page_date(text: str) -> dt.datetime | None:
+    match = re.search(
+        r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\.?\s+(\d{1,2}),\s+(\d{4})\b",
+        text,
+        flags=re.I,
+    )
+    if not match:
+        return None
+    month = MONTHS[match.group(1).lower().rstrip(".")]
+    return dt.datetime(int(match.group(3)), month, int(match.group(2)), tzinfo=dt.timezone.utc)
+
+
+def clean_news_page_title(text: str) -> str:
+    cleaned = re.sub(r"\b(Product|Announcements|Research|Company)\b\s+", "", text, count=1, flags=re.I).strip()
+    cleaned = re.sub(
+        r"^(?:Product|Announcements|Research|Company)?\s*(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\.?\s+\d{1,2},\s+\d{4}\s+",
+        "",
+        cleaned,
+        flags=re.I,
+    ).strip()
+    cleaned = re.sub(
+        r"\s+(?:Product|Announcements|Research|Company)?\s*(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\.?\s+\d{1,2},\s+\d{4}\s+.*$",
+        "",
+        cleaned,
+        count=1,
+        flags=re.I,
+    ).strip()
+    return cleaned or text
 
 
 class HackerNewsSource:
@@ -230,12 +292,15 @@ class TechmemeSource:
             if not title or not looks_ai_related(title):
                 continue
             url = urllib.parse.urljoin("https://www.techmeme.com/river", html.unescape(match.group(1)))
+            url_date = infer_date_from_url(url)
+            if url_date and not (window_start <= url_date <= window_end):
+                continue
             candidates.append(
                 Candidate(
                     title=title,
                     url=url,
                     source=self.name,
-                    published_at=window_end.isoformat(),
+                    published_at=(url_date or window_end).isoformat(),
                     summary="Techmeme industry signal.",
                     category="big_tech",
                 )
@@ -257,6 +322,18 @@ def in_window(value: str, window_start: dt.datetime, window_end: dt.datetime) ->
     except ValueError:
         return True
     return window_start <= parsed <= window_end
+
+
+def infer_date_from_url(url: str) -> dt.datetime | None:
+    patterns = [
+        r"/(20\d{2})/(\d{2})/(\d{2})(?:/|$)",
+        r"/(20\d{2})-(\d{2})-(\d{2})(?:/|$)",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, url)
+        if match:
+            return dt.datetime(int(match.group(1)), int(match.group(2)), int(match.group(3)), tzinfo=dt.timezone.utc)
+    return None
 
 
 def default_sources() -> list[object]:

@@ -87,6 +87,7 @@ def render_codex_brief(
         "",
         "- 选择 5 个产品机会、5 条巨头动态、3 个用户痛点。",
         "- 只使用候选数据里的来源 URL，不要编造来源。",
+        "- 每条候选的 published_at 就是引用日期；不要选择明显不在本期窗口内的旧资料。",
         "- 中文改写，不要机械翻译标题；保留必要英文产品名。",
         "- 优先选择和 AI 产品、AI 趋势、AI 发展、用户痛点、用户需求相关的信号。",
         "- 对低质量或无关候选直接忽略。",
@@ -142,6 +143,16 @@ def validate_analysis(data: dict[str, Any]) -> None:
                 raise ValueError(f"{section}[{index}] must include source_urls.")
 
 
+def validate_analysis_sources(data: dict[str, Any], candidates: list[Candidate]) -> None:
+    known_urls = {candidate.url for candidate in candidates}
+    for section in REQUIRED_SECTIONS:
+        for item in data.get(section, []):
+            unknown_urls = [url for url in item.get("source_urls", []) if url not in known_urls]
+            if unknown_urls:
+                title = item.get("title", section)
+                raise ValueError(f"Analysis item {title!r} cites URLs outside the candidate set: {unknown_urls}")
+
+
 def apply_codex_analysis(
     root: Path,
     report_date: dt.date,
@@ -149,6 +160,7 @@ def apply_codex_analysis(
     source_results: list[SourceResult],
 ) -> dict[str, Path]:
     analysis = load_codex_analysis(root, report_date)
+    validate_analysis_sources(analysis, candidates)
     payload = build_report_payload(report_date, candidates, source_results, analysis)
     paths = write_report_files(root, payload)
     paths["site"] = write_static_site(root)

@@ -16,7 +16,10 @@ def candidate_to_frontend(item: Candidate) -> dict[str, Any]:
         "score": item.score,
         "rank": item.rank,
         "published_at": item.published_at,
-        "sources": [{"name": source, "url": item.url} for source in item.sources],
+        "sources": [
+            {"name": source, "url": item.url, "published_at": item.published_at, "published_date": display_date(item.published_at)}
+            for source in item.sources
+        ],
         "url": item.url,
     }
 
@@ -104,6 +107,8 @@ def analysis_item_to_frontend(item: dict[str, Any], url_lookup: dict[str, Candid
             {
                 "name": (url_lookup[url].source if url in url_lookup else "Source"),
                 "url": url,
+                "published_at": (url_lookup[url].published_at if url in url_lookup else ""),
+                "published_date": display_date(url_lookup[url].published_at) if url in url_lookup else "",
             }
             for url in source_urls
         ],
@@ -197,7 +202,7 @@ def render_section(title: str, items: list[dict[str, Any]]) -> list[str]:
         lines.extend(["暂无足够高质量信号。", ""])
         return lines
     for index, item in enumerate(items, start=1):
-        source_links = ", ".join(f"[{source['name']}]({source['url']})" for source in item.get("sources", []))
+        source_links = ", ".join(format_source_markdown(source) for source in item.get("sources", []))
         lines.extend(
             [
                 f"### {index}. {item['title']}",
@@ -210,3 +215,18 @@ def render_section(title: str, items: list[dict[str, Any]]) -> list[str]:
             ]
         )
     return lines
+
+
+def format_source_markdown(source: dict[str, Any]) -> str:
+    published = source.get("published_date") or display_date(source.get("published_at", ""))
+    label = f"{source['name']} · {published}" if published else source["name"]
+    return f"[{label}]({source['url']})"
+
+
+def display_date(value: str) -> str:
+    if not value:
+        return ""
+    try:
+        return dt.datetime.fromisoformat(str(value).replace("Z", "+00:00")).date().isoformat()
+    except ValueError:
+        return str(value)[:10]
