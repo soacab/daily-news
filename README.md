@@ -5,10 +5,18 @@
 ## 本地运行
 
 ```bash
-scripts/daily-news run-daily --date 2026-05-02 --no-push
+scripts/daily-news collect --date 2026-05-02
+scripts/daily-news codex-brief --date 2026-05-02
 ```
 
-自动化运行时需要在环境中提供 `OPENAI_API_KEY`。密钥不写入仓库，也不需要放到 GitHub Secrets。
+`codex-brief` 会生成 `.cache/daily-news/YYYY-MM-DD-codex-brief.md`。Codex 自动化会读取这个 brief，用 Codex 自身模型能力写出 `.cache/daily-news/YYYY-MM-DD-analysis.json`，然后运行：
+
+```bash
+scripts/daily-news apply-analysis --date 2026-05-02
+scripts/daily-news publish --date 2026-05-02
+```
+
+不需要配置 `OPENAI_API_KEY`。`daily_news/llm.py` 只保留为可选备用路径，默认日报质量由 Codex 自动化本身负责。
 
 ## 输出
 
@@ -43,7 +51,12 @@ git push -u origin main
 Codex app 里已有一个每日任务 `daily-news local generator`，计划每天北京时间 08:00 在本地运行：
 
 ```bash
-scripts/daily-news run-daily
+scripts/daily-news collect
+scripts/daily-news codex-brief
+# Codex 读取 brief 并写 analysis.json
+scripts/daily-news apply-analysis
+python3 -m unittest discover -s tests
+scripts/daily-news publish
 ```
 
-请在 Codex 自动化运行环境里提供 `OPENAI_API_KEY`，并确保本机 git remote 与 GitHub 凭据可用。GitHub Actions workflow 只部署 `site/`，不会读取 OpenAI key。
+请确保本机 git remote 与 GitHub 凭据可用。GitHub Actions workflow 只部署 `site/`，不会读取 OpenAI key，也不会生成日报内容。

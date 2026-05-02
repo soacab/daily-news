@@ -12,6 +12,7 @@ from .pipeline import collect_candidates, merge_candidates, score_candidates
 from .publisher import publish_changes
 from .render import build_report_payload, write_report_files
 from .site import write_static_site
+from .codex_analysis import analysis_path, apply_codex_analysis, write_codex_brief
 
 
 def parse_date(value: str | None) -> dt.date:
@@ -83,10 +84,35 @@ def command_generate(args: argparse.Namespace) -> int:
         candidates = score_candidates(merge_candidates(collection.candidates))
         sources = collection.source_results
         save_collection(root, report_date, candidates, sources)
-    analysis = analyze_candidates(candidates, report_date.isoformat())
+    analysis = analyze_candidates(candidates, report_date.isoformat()) if getattr(args, "use_openai", False) else None
     payload = build_report_payload(report_date, candidates, sources, analysis)
     paths = write_report_files(root, payload)
     print(f"Generated {paths['markdown']}")
+    return 0
+
+
+def command_codex_brief(args: argparse.Namespace) -> int:
+    root = Path(args.root).resolve()
+    report_date = parse_date(args.date)
+    try:
+        candidates, sources = load_collection(root, report_date)
+    except FileNotFoundError:
+        window_start, window_end = utc_window_for_report(report_date)
+        collection = collect_candidates(default_sources(), window_start, window_end)
+        candidates = score_candidates(merge_candidates(collection.candidates))
+        sources = collection.source_results
+        save_collection(root, report_date, candidates, sources)
+    path = write_codex_brief(root, report_date, candidates, sources)
+    print(f"Wrote Codex brief {path}")
+    return 0
+
+
+def command_apply_analysis(args: argparse.Namespace) -> int:
+    root = Path(args.root).resolve()
+    report_date = parse_date(args.date)
+    candidates, sources = load_collection(root, report_date)
+    paths = apply_codex_analysis(root, report_date, candidates, sources)
+    print(f"Applied Codex analysis -> {paths['markdown']}")
     return 0
 
 
@@ -109,12 +135,17 @@ def command_run_daily(args: argparse.Namespace) -> int:
     root = Path(args.root).resolve()
     report_date = parse_date(args.date)
     collect_args = argparse.Namespace(root=root, date=report_date.isoformat())
-    generate_args = argparse.Namespace(root=root, date=report_date.isoformat())
-    build_args = argparse.Namespace(root=root)
+    brief_args = argparse.Namespace(root=root, date=report_date.isoformat())
     publish_args = argparse.Namespace(root=root, date=report_date.isoformat(), no_push=args.no_push)
     command_collect(collect_args)
-    command_generate(generate_args)
-    command_build_site(build_args)
+    command_codex_brief(brief_args)
+    if not analysis_path(root, report_date).exists():
+        print(
+            "Codex brief is ready. Write the analysis JSON first, then run "
+            f"`scripts/daily-news apply-analysis --date {report_date.isoformat()}` and publish."
+        )
+        return 2
+    command_apply_analysis(argparse.Namespace(root=root, date=report_date.isoformat()))
     return command_publish(publish_args)
 
 
@@ -129,7 +160,16 @@ def build_parser() -> argparse.ArgumentParser:
 
     generate = subparsers.add_parser("generate")
     generate.add_argument("--date")
+    generate.add_argument("--use-openai", action="store_true", help="Optional legacy OpenAI API generation path")
     generate.set_defaults(func=command_generate)
+
+    codex_brief = subparsers.add_parser("codex-brief")
+    codex_brief.add_argument("--date")
+    codex_brief.set_defaults(func=command_codex_brief)
+
+    apply_analysis = subparsers.add_parser("apply-analysis")
+    apply_analysis.add_argument("--date")
+    apply_analysis.set_defaults(func=command_apply_analysis)
 
     build_site = subparsers.add_parser("build-site")
     build_site.set_defaults(func=command_build_site)

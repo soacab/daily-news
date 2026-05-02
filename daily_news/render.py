@@ -27,6 +27,9 @@ def build_report_payload(
     source_results: list[SourceResult],
     analysis: dict[str, Any] | None,
 ) -> dict[str, Any]:
+    if analysis and has_analysis_sections(analysis):
+        return build_analysis_payload(report_date, candidates, source_results, analysis)
+
     opportunities = [item for item in candidates if item.category in {"product", "general"}][:5]
     big_tech = [item for item in candidates if item.category == "big_tech"][:5]
     pain_points = [
@@ -55,6 +58,56 @@ def build_report_payload(
         "low_signal": len(candidates) < 8,
         "all_candidates": [item.to_dict() for item in candidates],
         "analysis": analysis,
+    }
+
+
+def has_analysis_sections(analysis: dict[str, Any]) -> bool:
+    return all(isinstance(analysis.get(section), list) and analysis[section] for section in ("opportunities", "big_tech", "pain_points"))
+
+
+def build_analysis_payload(
+    report_date: dt.date,
+    candidates: list[Candidate],
+    source_results: list[SourceResult],
+    analysis: dict[str, Any],
+) -> dict[str, Any]:
+    url_lookup = {candidate.url: candidate for candidate in candidates}
+
+    return {
+        "date": report_date.isoformat(),
+        "title": "AI 产品机会日报",
+        "summary": str(analysis["summary"]).strip(),
+        "opportunities": [analysis_item_to_frontend(item, url_lookup, index) for index, item in enumerate(analysis["opportunities"][:5], start=1)],
+        "big_tech": [analysis_item_to_frontend(item, url_lookup, index) for index, item in enumerate(analysis["big_tech"][:5], start=1)],
+        "pain_points": [analysis_item_to_frontend(item, url_lookup, index) for index, item in enumerate(analysis["pain_points"][:3], start=1)],
+        "source_health": [
+            {"name": result.name, "ok": result.ok, "count": len(result.candidates), "error": result.error}
+            for result in source_results
+        ],
+        "low_signal": False,
+        "all_candidates": [item.to_dict() for item in candidates],
+        "analysis": analysis,
+    }
+
+
+def analysis_item_to_frontend(item: dict[str, Any], url_lookup: dict[str, Candidate], rank: int) -> dict[str, Any]:
+    source_urls = [str(url) for url in item.get("source_urls", []) if str(url).strip()]
+    matched = next((url_lookup[url] for url in source_urls if url in url_lookup), None)
+    return {
+        "title": str(item.get("title", "")).strip(),
+        "summary": str(item.get("summary", "")).strip(),
+        "reason": str(item.get("reason", "")).strip(),
+        "score": matched.score if matched else 0,
+        "rank": rank,
+        "published_at": matched.published_at if matched else "",
+        "sources": [
+            {
+                "name": (url_lookup[url].source if url in url_lookup else "Source"),
+                "url": url,
+            }
+            for url in source_urls
+        ],
+        "url": source_urls[0] if source_urls else "",
     }
 
 
